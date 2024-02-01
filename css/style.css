@@ -132,3 +132,7 @@ header{
 .footer .footer-right .footer-right-icon a{
     margin: 3px;
 }
+
+input {
+    border-radius: 20px;
+}
