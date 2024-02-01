@@ -32,6 +32,10 @@ h2 {
     height: 100px;
 
 }
+.img-content{
+    max-width: 10%;
+    height: auto;
+}
 
 .a-header{
     text-decoration: none;
