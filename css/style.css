@@ -52,6 +52,7 @@ header{
     background-color: #c6e197;
     height: 60px;
     display: block;
+    word-spacing: 100px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
