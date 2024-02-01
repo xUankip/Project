@@ -1,0 +1,53 @@
+body{
+    padding: 0px 10px 20px 10px;
+}
+.img-logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.img-recipe{
+    width: 200px;
+    height: 50px;
+
+}
+.img-footer{
+    width: 50px;
+    height: 50px;
+}
+.a-header{
+text-decoration: none;
+color: rgb(32, 43, 52);
+}
+.a-body{
+    color: #c6e197;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+.div-header{
+    background-color: #c6e197;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.div-header a{
+    padding: 15px 16px;
+}
+.div-header a:hover{
+    color: rgb(60, 12, 217);
+}
+.div-footer{
+    height: 100px;
+    background-color: #c6e197;
+    display: flex;
+}
+.div-footer p{
+    text-align: center;
+}
