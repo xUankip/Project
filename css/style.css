@@ -7,6 +7,10 @@ header {
     text-decoration: none;
 }
 
+h2 {
+    text-align: center;
+}
+
 .img-logo{
     width: 100px;
     height: 100px;
@@ -105,11 +109,12 @@ header{
     border: 1px solid #CDCDCD;
     float: right;
     margin-bottom: 5px;
+    background-color: rgb(197, 194, 194);
 }
 
 .footer {
-    height: 60px;
-    border: 1px solid #e9e3e3;
+    height: 100px;
+    border: 2px solid #e9e3e3;
     background-color: #c6e197;
     display: flex;
     text-align: center;
