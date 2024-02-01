@@ -1,6 +1,12 @@
 body{
     padding: 0px 40px 20px 50px;
 }
+
+header {
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .img-logo{
     width: 100px;
     height: 100px;
@@ -9,26 +15,33 @@ body{
     margin-right: auto;
 
 }
+
 .img-recipe{
     width: 200px;
     height: 50px;
 
 }
+
 .img-footer{
     width: 50px;
     height: 50px;
 }
+
 .a-header{
 text-decoration: none;
 color: rgb(32, 43, 52);
 }
+
 .a-body{
     color: #c6e197;
     text-decoration: none;
 }
+
 header{
     text-align: center;
+
 }
+
 .div-header{
     background-color: #c6e197;
     height: 60px;
@@ -36,19 +49,27 @@ header{
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    padding: 12px 0px;
 }
+
 .div-header a{
     padding: 15px 16px;
+    text-decoration: none;
+    position: relative;
 }
+
+
 .div-header a:hover{
     color: rgb(60, 12, 217);
 }
+
 /* .div-footer{
     height: 100px;
     background-color: #c6e197;
     display: flex;
     text-align: center;
 } */
+
 .head {
     height: 30px;
     line-height: 30px;
@@ -57,6 +78,7 @@ header{
     margin-bottom: 5px;
     clear: both;
 }
+
 .left {
     width: 150px;
     min-height: 400px;
@@ -65,16 +87,18 @@ header{
     background-color: #faf9f9;
     margin-bottom: 5px;
 }
+
 .content {
-    width: 1000px;
+    width: 1350px;
     min-height: 400px;
     border: 1px solid #CDCDCD;
     float:left;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    text-align: center;
+
 }
+
 .right {
     width: 300px;
     min-height: 400px;
@@ -82,6 +106,7 @@ header{
     float: right;
     margin-bottom: 5px;
 }
+
 .footer {
     height: 60px;
     border: 1px solid #e9e3e3;
