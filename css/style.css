@@ -36,7 +36,7 @@ h2 {
 .a-header{
     text-decoration: none;
     color: rgb(32, 43, 52);
-    margin: px;
+    text-transform: uppercase ;
 }
 
 .a-body{
