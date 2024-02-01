@@ -122,3 +122,13 @@ header{
     text-align: center;
     clear: both;
 }
+
+.footer .footer-right {
+    margin-left: 1000px;
+    font-weight: bold;
+}
+
+.footer .footer-right .footer-right-icon a{
+    margin: 3px;
+}
+
