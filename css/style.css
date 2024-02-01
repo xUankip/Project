@@ -13,8 +13,8 @@ h2 {
 }
 
 .img-logo{
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,8 +28,9 @@ h2 {
 }
 
 .img-footer{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+
 }
 
 .a-header{
@@ -52,6 +53,7 @@ header{
     background-color: #c6e197;
     height: 60px;
     display: block;
+    word-spacing: 100px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -106,7 +108,7 @@ header{
 }
 
 .right {
-    width: 300px;
+    width: 295px;
     min-height: 400px;
     border: 1px solid #CDCDCD;
     float: right;
@@ -115,14 +117,17 @@ header{
 }
 
 .footer {
-    height: 100px;
+    height: 105px;
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
     display: flex;
     text-align: center;
     clear: both;
 }
-
+.p-footer{
+    padding: 35px;
+    text-align: center;
+}
 .footer .footer-right {
     margin-left: 1000px;
     font-weight: bold;
