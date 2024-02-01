@@ -5,6 +5,18 @@ body{
 header {
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+}
+
+.sticky-top .div-header {
+    text-align: center;
+    display: block;
+    /* display: inline-block; */
+    float: none;
+}
+
+.sticky-top .div-header .a-header{
+    text-align: center;
 }
 
 h2 {
