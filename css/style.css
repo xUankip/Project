@@ -97,8 +97,6 @@ header{
 }
 
 .content {
-    width: 1350px;
-    min-height: 400px;
     border: 1px solid #CDCDCD;
     float:left;
     margin-left: 5px;
@@ -108,8 +106,6 @@ header{
 }
 
 .right {
-    width: 295px;
-    min-height: 400px;
     border: 1px solid #CDCDCD;
     float: right;
     margin-bottom: 5px;
