@@ -9,6 +9,7 @@ header {
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 .img-logo{
@@ -32,8 +33,9 @@ h2 {
 }
 
 .a-header{
-text-decoration: none;
-color: rgb(32, 43, 52);
+    text-decoration: none;
+    color: rgb(32, 43, 52);
+    margin: px;
 }
 
 .a-body{
