@@ -118,12 +118,19 @@ header{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     height: 500px;
     width:840px ;
 }
 
 .right {
     height: 500px;
+=======
+    /* width: 60%; */
+}
+
+.right {
+>>>>>>> ef4deaf1799591ad0a4ccc2854690e5adb2b9bb0
     border: 1px solid #CDCDCD;
     float: right;
     margin-bottom: 5px;
