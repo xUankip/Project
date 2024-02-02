@@ -135,6 +135,8 @@ header{
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
     clear: both;
 }
