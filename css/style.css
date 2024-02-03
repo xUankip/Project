@@ -5,6 +5,18 @@ body{
 header {
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+}
+
+.sticky-top .div-header {
+    text-align: center;
+    display: block;
+    /* display: inline-block; */
+    float: none;
+}
+
+.sticky-top .div-header .a-header{
+    text-align: center;
 }
 
 h2 {
@@ -32,6 +44,10 @@ h2 {
     height: 100px;
 
 }
+.img-content{
+    max-width: 10%;
+    height: auto;
+}
 
 .a-header{
     text-decoration: none;
@@ -40,7 +56,7 @@ h2 {
 }
 
 .a-body{
-    color: #c6e197;
+    color: #8FB780;
     text-decoration: none;
 }
 
@@ -90,7 +106,7 @@ header{
 
 .left {
     width: 150px;
-    min-height: 400px;
+    min-height: 500px;
     border: 1px  solid #CDCDCD;
     float: left;
     background-color: #faf9f9;
@@ -103,10 +119,12 @@ header{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
-
+    height: 500px;
+    width:840px ;
 }
 
 .right {
+    height: 500px;
     border: 1px solid #CDCDCD;
     float: right;
     margin-bottom: 5px;
@@ -122,17 +140,25 @@ header{
     clear: both;
 }
 .p-footer{
+    margin-left:200px ;
     padding: 35px;
     text-align: center;
+    font-size: small;
+}
+.footer-right{
+    margin-left:300px ;
 }
 .footer .footer-right {
-    margin-left: 1000px;
+
     font-weight: bold;
 }
-
 .footer .footer-right .footer-right-icon a{
     margin: 3px;
 }
 input {
     border-radius: 20px;
+}
+
+.content .a-body .box-content {
+    background-color: red;
 }
