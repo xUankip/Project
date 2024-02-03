@@ -40,10 +40,12 @@ h2 {
     margin: 50px;
     font-size: medium;
 }
+.container{
+    position: relative;
+}
 .img-recipe{
     /* width: 289px;
     height: 360px; */
-    position: relative;
     padding: 2px;
     border-radius: 10%;
     width: auto;
@@ -57,8 +59,7 @@ h2 {
 .p-recipe{
     color: #fff;
     position: absolute;
-    bottom: 0px;
-    margin: 40px;
+    margin: 10px;
     padding-left: 9px;
     font-size:small;
     

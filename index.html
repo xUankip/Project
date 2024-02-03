@@ -6,7 +6,7 @@
     <title>Quick Snack</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> <!--link awesome để chèn logo vào-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEQngsV7Zt27NXF@a@ApmYm81iuXoPkF0JwJ8ERdkLPM0" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -33,23 +33,22 @@
     <h3 style="color: #8FB780;">| Delicious Daily Dish</h3>
     <div>
         <div class="head">
-            
-            <div>
+            <div class="container">
                 <a href="#"><img class="img-recipe" src="images/Salad.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
-                <h3 class="p-recipe">Vegetable and Fruit Salad is a refreshing dish, rich in vitamins <br> and fiber, good for health.</h3>
+                <h3 class="p-recipe">Vegetable and Fruit Salad <br>is a refreshing dish, rich in vitamins <br> and fiber, good for health.</h3>
             </div>
-            <div>
-                <a href="#"><img class="img-recipe" src="https://cdn.tgdd.vn/Files/2021/12/24/1406516/tong-hop-cong-thuc-nau-an-theo-cach-che-bien-de-lam-tai-nha-202112241205239944.jpg" alt="Ảnh"></a>
+            <div class="container">
+                <a href="#"><img class="img-recipe" src="images/bànhlan.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
-                <h3 class="p-recipe">Super Delicious Braised Chicken </h3>
+                <h3 class="p-recipe">Flan is a smooth, delicious dessert that is perfect for children.</h3>
             </div>
-            <div>
+            <div class="container">
                 <a href="#"><img class="img-recipe" src="images/GoiCuonTomThit1.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
                 <h3 class="p-recipe">Shrimp and Pork Spring Rolls are a refreshing, low-calorie dish<br> perfect for those looking to lose weight.</h3>
             </div>
-            <div>
+            <div class="container">
                 <a href="#"><img class="img-recipe" src="images/BunCha.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">Easy To Fill Up Snack</h1>
                 <h3 class="p-recipe">Hanoi Bun Cha is a popular dish in Hanoi, Vietnam.</h3>
@@ -157,3 +156,25 @@
     </div>
 </footer>
 </html>
+
+
+
+<style>
+    .img-container {
+        position: relative;
+    }
+    .p-recipe {
+        position: absolute;
+        bottom: 5px;
+    }
+</style>
+</head>
+<body>
+<!-- Phần còn lại của mã HTML -->
+<div class="img-container">
+    <a href="#"><img class="img-recipe" src="images/Salad.jpg" alt="Ảnh"></a>
+    <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
+    <h3 class="p-recipe">Vegetable and Fruit Salad is a refreshing dish, rich in vitamins <br> and fiber, good for health.</h3>
+</div>
+<!-- Phần còn lại của mã HTML -->
+</body>
