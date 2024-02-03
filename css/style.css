@@ -57,8 +57,13 @@ h2 {
     
 }
 
-.container-suggest{
-    margin-left:12px ;
+.container-suggest {
+    text-align: center;
+}
+
+.container-suggest img {
+    border-radius: 50%;
+    width: 150px;
 }
 
 .img-footer{
