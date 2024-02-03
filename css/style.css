@@ -32,21 +32,34 @@ h2 {
     margin-right: auto;
 
 }
-
-.img-recipe{
-    width: 200px;
-    height: 100px;
-
+.p-DanhMuc{
+    padding-left: 68px;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    margin: 11px;
+    font-size: medium;
 }
-
+.img-recipe{
+    width: 289px;
+    height: 360px;
+    position: relative;
+    padding: 6px;
+    
+}
+.p-recipe{
+    color: #fff;
+    position: absolute;
+    bottom: 1px;
+    margin: 11px;
+    padding-left: 32px;
+    font-size:small;
+    
+}
 .img-footer{
     width: 100px;
     height: 100px;
 
-}
-.img-content{
-    max-width: 10%;
-    height: auto;
 }
 
 .a-header{
@@ -95,7 +108,7 @@ header{
 } */
 
 .head {
-    height: 150px;
+    height: 350px;
     line-height: 30px;
     padding-left: 20px;
     padding-right: 10px;
@@ -165,3 +178,7 @@ input {
 .content .a-body .box-content {
     background-color: red;
 }
+
+
+
+
