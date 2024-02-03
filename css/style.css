@@ -56,6 +56,11 @@ h2 {
     font-size:small;
     
 }
+
+.container-suggest{
+    margin-left:12px ;
+}
+
 .img-footer{
     width: 100px;
     height: 100px;
@@ -132,7 +137,7 @@ header{
     margin-right: 5px;
     margin-bottom: 5px;
     height: 500px;
-    width: 990px;
+    width: 975px;
     /* height: 500px;
     width:840px ; */
     display: block;
@@ -143,8 +148,9 @@ header{
     border: 1px solid #CDCDCD;
     float: right;
     height: 500px;
+    width: 190px;
     /* margin-bottom: 5px; */
-    background-color: rgb(197, 194, 194);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
 }
 
