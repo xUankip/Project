@@ -100,7 +100,7 @@ header{
     padding-left: 20px;
     padding-right: 10px;
     margin-bottom: 5px;
-    display: inline;
+    display: flex;
     clear: both;
 }
 
