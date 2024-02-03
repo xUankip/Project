@@ -116,18 +116,19 @@ header{
 .content {
     border: 1px solid #CDCDCD;
     float:left;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 5px;
     margin-bottom: 5px;
-    height: 500px;
-    width:840px ;
+    /* height: 500px;
+    width:840px ; */
+    display: block;
 }
 
 .right {
-    height: 500px;
+    /* height: 500px; */
     border: 1px solid #CDCDCD;
     float: right;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     background-color: rgb(197, 194, 194);
 }
 
@@ -146,7 +147,8 @@ header{
     font-size: small;
 }
 .footer-right{
-    margin-left:300px ;
+    /* margin-left:300px ; */
+   float: right;
 }
 .footer .footer-right {
 
