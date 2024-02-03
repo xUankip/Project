@@ -45,14 +45,14 @@ h2 {
     height: 360px;
     position: relative;
     padding: 6px;
-    
+    border-radius: 10%;
 }
 .p-recipe{
     color: #fff;
     position: absolute;
-    bottom: 1px;
+    bottom: 0px;
     margin: 40px;
-    padding-left: 10px;
+    padding-left: 9px;
     font-size:small;
     
 }
