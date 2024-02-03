@@ -33,11 +33,11 @@ h2 {
 
 }
 .p-DanhMuc{
-    padding-left: 68px;
+    padding-left: 25px;
     color: #fff;
     position: absolute;
     bottom: 20px;
-    margin: 11px;
+    margin: 50px;
     font-size: medium;
 }
 .img-recipe{
@@ -51,8 +51,8 @@ h2 {
     color: #fff;
     position: absolute;
     bottom: 1px;
-    margin: 11px;
-    padding-left: 32px;
+    margin: 40px;
+    padding-left: 10px;
     font-size:small;
     
 }
