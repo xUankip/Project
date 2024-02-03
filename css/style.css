@@ -130,6 +130,7 @@ header{
     float: right;
     /* margin-bottom: 5px; */
     background-color: rgb(197, 194, 194);
+    margin-bottom: 5px;
 }
 
 .footer {
