@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0px 40px 20px 50px;
 }
 
@@ -80,9 +80,13 @@ h2 {
 
 .a-body{
     color: #8FB780;
-    text-decoration: none;
+    
 }
-
+.content img{
+    border-radius: 15%;
+    padding: 6px;
+    width: 100px;
+}
 header{
     text-align: center;
 
@@ -141,7 +145,7 @@ header{
     float:left;
     margin-right: 5px;
     margin-bottom: 5px;
-    height: 500px;
+    height: 710px;
     width: 975px;
     /* height: 500px;
     width:840px ; */
@@ -152,7 +156,7 @@ header{
     /* height: 500px; */
     border: 1px solid #CDCDCD;
     float: right;
-    height: 500px;
+    height: 710px;
     width: 190px;
     /* margin-bottom: 5px; */
     background-color: rgb(255, 255, 255);
