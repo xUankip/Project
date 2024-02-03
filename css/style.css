@@ -23,7 +23,7 @@ h2 {
 
 .img-recipe{
     width: 200px;
-    height: 50px;
+    height: 100px;
 
 }
 
@@ -79,11 +79,12 @@ header{
 } */
 
 .head {
-    height: 30px;
+    height: 150px;
     line-height: 30px;
     padding-left: 20px;
     padding-right: 10px;
     margin-bottom: 5px;
+    display: inline;
     clear: both;
 }
 
@@ -132,7 +133,6 @@ header{
 .footer .footer-right .footer-right-icon a{
     margin: 3px;
 }
-
 input {
     border-radius: 20px;
 }
