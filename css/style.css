@@ -137,6 +137,7 @@ header{
     margin-bottom: 5px;
     display: flex;
     clear: both;
+    overflow-y:auto;
 }
 
 /* .left {
