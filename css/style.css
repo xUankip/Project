@@ -5,7 +5,8 @@ main{
     padding-left: 5%;
 }
 li{
-    padding: auto   ;
+    position: relative;
+    padding: auto;
 }
 ul{
     list-style: none;
@@ -16,11 +17,12 @@ header {
     text-decoration: none;
     text-align: center;
     /* position: relative; */
-    min-width: 50%;
+    /* min-width: 50%; */
     background-color: #c6e197;
     /* box-sizing: border-box; */
     position: sticky;
-    top:0
+    top: 0;
+    left: 0;
 }
 /* 
 .sticky-top {
@@ -33,10 +35,9 @@ header {
 .sticky-top .div-header .a-header{
     text-align: center;
 } */
-.a-header{
+i{
     padding: 20px;
 }
-
 h2 {
     text-align: center;
     font-weight: bold;
@@ -55,12 +56,9 @@ h2 {
     padding-left: 25px;
     color: #fff;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     margin: 50px;
     font-size: medium;
-}
-.container{
-    position: relative;
 }
 .img-recipe{
     padding: 2px;
@@ -75,13 +73,29 @@ h2 {
 .p-recipe{
     color: white;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    position: absolute;
     padding-left: 12px;
-    bottom: 5px;
+    bottom: 55px;
     font-size:small;
-    
+    position: absolute;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px; 
+    line-height: 1.5;
 }
 
+.xem-them {
+    color: #e9e3e3;
+    position: absolute;
+    bottom: 25px;
+    padding-left: 12px;
+  }
+  
+  .xem-them:hover {
+    color: #f00;
+  }
+  
 .container-suggest {
     text-align: center;
 }
