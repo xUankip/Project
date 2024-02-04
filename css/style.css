@@ -1,6 +1,4 @@
-/* body {
-    padding: 0px 40px 20px 50px;
-} */
+
 main{
     padding-left: 5%;
 }
@@ -16,25 +14,12 @@ header {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    /* position: relative; */
-    /* min-width: 50%; */
     background-color: #c6e197;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     position: sticky;
     top: 0;
     left: 0;
 }
-/* 
-.sticky-top {
-    text-align: center;
-    display: flex;
-    display: inline-block;
-    float: none;
-}
-
-.sticky-top .div-header .a-header{
-    text-align: center;
-} */
 i{
     padding: 20px;
 }
@@ -66,7 +51,6 @@ h2 {
     width: auto;
     height: 200px;
     max-width: 290px;
-    /* max-height: 360px; */
     text-align: center;
     display: block;
 }
@@ -115,7 +99,6 @@ h2 {
     text-decoration: none;
     color: rgb(32, 43, 52);
     text-transform: uppercase ;
-    /* padding: 20px; */
 }
 
 .a-body{
@@ -151,15 +134,9 @@ h2 {
     color: rgb(60, 12, 217);
 }
 
-/* .div-footer{
-    height: 100px;
-    background-color: #c6e197;
-    display: flex;
-    text-align: center;
-} */
+
 
 .head {
-    /* height: 350px; */
     line-height: 30px;
     padding-left: 20px;
     padding-right: 10px;
@@ -170,14 +147,7 @@ h2 {
     overflow-y: auto;
 }
 
-/* .left {
-    width: 150px;
-    height: 500px;
-    border: 1px  solid #CDCDCD;
-    float: left;
-    background-color: #faf9f9;
-    margin-bottom: 5px;
-} */
+
 
 .content {
     border: 1px solid #CDCDCD;
@@ -186,19 +156,15 @@ h2 {
     margin-bottom: 5px;
     height: 710px;
     width: 975px;
-    /* height: 500px;
-    width:840px ; */
     display: block;
     max-width: 60%;
 }
 
 .right {
-    /* height: 500px; */
     border: 1px solid #CDCDCD;
     float: right;
     height: 710px;
     width: 190px;
-    /* margin-bottom: 5px; */
     background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
     margin-right: 3%;
@@ -221,7 +187,6 @@ footer{
     font-size: small;
 }
 .footer-right{
-    /* margin-left:300px ; */
    float: right;
 }
 .footer .footer-right {
