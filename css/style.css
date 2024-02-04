@@ -22,7 +22,6 @@ header {
     /* box-sizing: border-box; */
     position: sticky;
     top: 0;
-    left: 0;
 }
 /* 
 .sticky-top {
@@ -208,7 +207,7 @@ footer{
     bottom: 0;
 }
 .footer {
-    height: 130px;
+    
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
     display: flex;
@@ -221,15 +220,15 @@ footer{
     font-size: small;
 }
 .footer-right{
-    /* margin-left:300px ; */
-   float: right;
+    /* margin-left:20px ; */
+   float: left;
 }
-.footer .footer-right {
+.footer .footer-right  {
 
     font-weight: bold;
 }
 .footer .footer-right .footer-right-icon a{
-    margin: 3px;
+    margin: 10px;
 }
 input {
     border-radius: 20px;
