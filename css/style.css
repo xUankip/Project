@@ -59,8 +59,8 @@ h2 {
 .p-recipe{
     color: #fff;
     position: absolute;
-    margin: 10px;
-    padding-left: 9px;
+    padding-left: 12px;
+    bottom: 5px;
     font-size:small;
     
 }
