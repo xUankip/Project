@@ -37,6 +37,7 @@ h2 {
     padding-top: 2%;
 }
 .p-DanhMuc{
+    text-transform: uppercase;
     text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
     padding-left: 25px;
     color: #fff;
