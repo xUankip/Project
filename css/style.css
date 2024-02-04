@@ -20,7 +20,7 @@ header {
     background-color: #c6e197;
     /* box-sizing: border-box; */
     position: sticky;
-    top: 0;
+    top:0
 }
 /* 
 .sticky-top {
@@ -194,7 +194,7 @@ footer{
     bottom: 0;
 }
 .footer {
-    height: 105px;
+    height: 130px;
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
     display: flex;
