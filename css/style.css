@@ -1,19 +1,28 @@
-body {
+/* body {
     padding: 0px 40px 20px 50px;
+} */
+main{
+    padding-left: 5%;
 }
-
+li{
+    padding: 20px;
+}
 header {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    /* position: relative; */
+    min-width: 50%;
+    background-color: #c6e197;
 }
 
-.sticky-top .div-header {
+/* .sticky-top {
     text-align: center;
-    display: block;
-    /* display: inline-block; */
+    display: flex;
+    display: inline-block;
     float: none;
-}
+    width: max-content;
+} */
 
 .sticky-top .div-header .a-header{
     text-align: center;
@@ -30,7 +39,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    padding-top: 2%;
 }
 .p-DanhMuc{
     text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
@@ -45,18 +54,14 @@ h2 {
     position: relative;
 }
 .img-recipe{
-    /* width: 289px;
-    height: 360px; */
     padding: 2px;
-    
     border-radius: 10%;
     width: auto;
     height: 200px;
     max-width: 290px;
-    max-height: 360px;
+    /* max-height: 360px; */
     text-align: center;
     display: block;
-
 }
 .p-recipe{
     color: white;
@@ -87,6 +92,7 @@ h2 {
     text-decoration: none;
     color: rgb(32, 43, 52);
     text-transform: uppercase ;
+    padding: 20px;
 }
 
 .a-body{
@@ -98,10 +104,7 @@ h2 {
     padding: 6px;
     width: 100px;
 }
-header{
-    text-align: center;
 
-}
 
 .div-header{
     background-color: #c6e197;
@@ -140,6 +143,7 @@ header{
     margin-bottom: 5px;
     display: flex;
     clear: both;
+    max-width: fit-content;
 }
 
 /* .left {
@@ -161,6 +165,7 @@ header{
     /* height: 500px;
     width:840px ; */
     display: block;
+    max-width: 60%;
 }
 
 .right {
@@ -173,7 +178,10 @@ header{
     background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
 }
-
+footer{
+    align-items: center;
+    bottom: 0;
+}
 .footer {
     height: 105px;
     border: 2px solid #e9e3e3;
@@ -183,7 +191,6 @@ header{
     clear: both;
 }
 .p-footer{
-    margin-left:200px ;
     padding: 35px;
     text-align: center;
     font-size: small;

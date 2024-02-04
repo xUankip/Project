@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header class="sticky-top">
-            <div class="div-header">
+            <!-- <div class="div-header">
                 <a class="a-header" href="index.html"><i class="fa-solid fa-house"></i>|Home</a>
                 <a class="a-header" href="html/recipe.html">Recipe</a>
                 <a class="a-header" href="html/about.html">AboutUs</a>
                 <input type="text" alt="Search" placeholder="Search">
                 <a class="a-header" href="html/login.html"><i class="fa-solid fa-user"></i>|Login</a>
                 
-            </div>
+            </div> -->
+            <ul style="list-style: none; display: inline-flex;">
+                <li><a class="a-header" href="index.html"><i class="fa-solid fa-house">|Home</i></a></li>
+                <li><a class="a-header" href="html/recipe.html"><i class="fa-solid">Recipe</i></a></li>
+                <li><a class="a-header" href="html/about.html"><i class="fa-solid">About Us</i></a></li>
+                <li><input type="text" alt="Search" placeholder="Search"></li>
+                <li><a class="a-header" href="html/login.html"><i class="fa-solid fa-user">|Login</i></a></li>
+            </ul>
             
     </header>
     <div>
@@ -31,37 +37,38 @@
        
     </div>
     <hr>
-    <h3 style="color: #8FB780;">| Delicious Daily Dish</h3>
-    <div>
+<main>
+    
+        <h3 style="color: #8FB780;">| Delicious Daily Dish</h3>
         <!--Hiển Thị ảnh dưới logo-->
         <div class="head">
-            <div>
+            <div class="container-fluid col">
                 <a href="#"><img class="img-recipe" src="images/Salad.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
                 <h3 class="p-recipe">Vegetable and Fruit Salad <br>is a refreshing dish, rich in vitamins <br> and fiber, good for health.</h3>
             </div>
-            <div class="container">
+            <div class="container-fluid col">
                 <a href="#"><img class="img-recipe" src="images/bànhlan.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
                 <h3 class="p-recipe">Flan is a smooth, delicious dessert that <br>is perfect for children.</h3>
             </div>
-            <div class="container">
+            <div class="container-fluid col">
                 <a href="#"><img class="img-recipe" src="images/GoiCuonTomThit1.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">HEALTHY SNACK</h1>
                 <h3 class="p-recipe">Shrimp and Pork Spring Rolls are a refreshing, low-calorie dish<br> perfect for those looking to lose weight.</h3>
             </div>
-            <div class="container">
+            <div class="container-fluid col">
                 <a href="#"><img class="img-recipe" src="images/BunCha.jpg" alt="Ảnh"></a>
                 <h1 class="p-DanhMuc">Easy To Fill Up Snack</h1>
                 <h3 class="p-recipe">Hanoi Bun Cha is a popular dish in <br>Hanoi, Vietnam.</h3>
             </div>
         </div>
         <hr>
-    </div>
+    
     <!--Content main-->
 
     <div class="content">
-        <div class="">
+        <div class="container-fluid">
             <h3><a class="a-body" href="">| Healthy Snack</a></h3>
             <div >
                 <div class="BanhMi">
@@ -136,7 +143,7 @@
             <br>
         </div> 
     </div>
-
+</main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
