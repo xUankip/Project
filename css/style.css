@@ -33,6 +33,7 @@ h2 {
 
 }
 .p-DanhMuc{
+    text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
     padding-left: 25px;
     color: #fff;
     position: absolute;
@@ -47,6 +48,7 @@ h2 {
     /* width: 289px;
     height: 360px; */
     padding: 2px;
+    
     border-radius: 10%;
     width: auto;
     height: 200px;
@@ -57,7 +59,8 @@ h2 {
 
 }
 .p-recipe{
-    color: #fff;
+    color: white;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     position: absolute;
     padding-left: 12px;
     bottom: 5px;
