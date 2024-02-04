@@ -18,6 +18,8 @@ header {
     box-sizing: border-box;
     position: sticky;
     top: 0;
+    object-fit: contain;
+    background-size: cover;
 }
 ul li{
     padding:20px;
