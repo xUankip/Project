@@ -7,6 +7,10 @@ main{
 li{
     padding: 20px;
 }
+ul{
+    list-style: none;
+    display: inline-flex;
+}
 header {
     font-weight: bold;
     text-decoration: none;
