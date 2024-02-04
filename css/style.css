@@ -19,9 +19,10 @@ header {
     position: sticky;
     top: 0;
 }
-i{
-    padding: 1px;
+ul li{
+    padding:20px;
 }
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -196,6 +197,9 @@ footer{
 }
 .footer .footer-right .footer-right-icon a{
     margin: 10px;
+}
+.icon i{
+    padding: 1px;
 }
 input {
     border-radius: 20px;
