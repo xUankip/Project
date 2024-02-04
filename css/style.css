@@ -144,7 +144,7 @@ h2 {
     display: flex;
     clear: both;
     max-width: fit-content;
-    overflow-y: auto;
+    overflow-y: auto;   
 }
 
 
