@@ -5,7 +5,7 @@ main{
     padding-left: 5%;
 }
 li{
-    padding: 20px;
+    padding: auto   ;
 }
 ul{
     list-style: none;
@@ -18,18 +18,21 @@ header {
     /* position: relative; */
     min-width: 50%;
     background-color: #c6e197;
+    /* box-sizing: border-box; */
 }
-
-/* .sticky-top {
+/* 
+.sticky-top {
     text-align: center;
     display: flex;
     display: inline-block;
     float: none;
-    width: max-content;
-} */
+}
 
 .sticky-top .div-header .a-header{
     text-align: center;
+} */
+.a-header{
+    padding: 20px;
 }
 
 h2 {
@@ -96,7 +99,7 @@ h2 {
     text-decoration: none;
     color: rgb(32, 43, 52);
     text-transform: uppercase ;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .a-body{
@@ -182,6 +185,7 @@ h2 {
     /* margin-bottom: 5px; */
     background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
+    margin-right: 3%;
 }
 footer{
     align-items: center;
