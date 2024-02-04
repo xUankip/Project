@@ -152,20 +152,20 @@ h2 {
 
 .content {
     border: 1px solid #CDCDCD;
-    float:left;
+    /* float:left; */
     margin-right: 5px;
     margin-bottom: 5px;
-    height: 710px;
+    /* height: 710px;
     width: 975px;
-    display: block;
-    max-width: 60%;
+    display: block; 
+    max-width: 60%; */
 }
 
 .right {
     border: 1px solid #CDCDCD;
-    float: right;
-    height: 710px;
-    width: 190px;
+    /* float: right; */
+     /* height: 710px;
+    width: 190px; */
     background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
     margin-right: 3%;
