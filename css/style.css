@@ -5,7 +5,8 @@ main{
     padding-left: 5%;
 }
 li{
-    padding: auto   ;
+    position: relative;
+    padding: auto;
 }
 ul{
     list-style: none;
@@ -16,11 +17,12 @@ header {
     text-decoration: none;
     text-align: center;
     /* position: relative; */
-    min-width: 50%;
+    /* min-width: 50%; */
     background-color: #c6e197;
     /* box-sizing: border-box; */
     position: sticky;
     top: 0;
+    left: 0;
 }
 /* 
 .sticky-top {
@@ -33,10 +35,9 @@ header {
 .sticky-top .div-header .a-header{
     text-align: center;
 } */
-.a-header{
+i{
     padding: 20px;
 }
-
 h2 {
     text-align: center;
     font-weight: bold;
