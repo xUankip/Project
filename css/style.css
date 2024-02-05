@@ -16,11 +16,13 @@ header {
     text-align: center;
     background-color: #c6e197;
     box-sizing: border-box;
-    position: sticky;
-    top: 0;
-    object-fit: contain;
-    background-size: cover;
+
 }
+.sticky-header {
+    position: sticky; 
+    top: 0;
+    z-index: 100; 
+  }
 ul li{
     padding:20px;
 }
