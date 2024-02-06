@@ -1,4 +1,6 @@
-
+body{
+    hyphens: auto;
+}
 main{
     padding-left: 5%;
 }
@@ -31,7 +33,11 @@ h2 {
     text-align: center;
     font-weight: bold;
 }
-
+.img-title{
+    height: 663px;
+    width: 900px;
+    padding-left:15px;
+}
 .img-logo{
     width: 180px;
     height: 180px;
@@ -41,59 +47,7 @@ h2 {
     padding-top: 2%;
 }
 
-.p-DanhMuc{
-    text-transform: uppercase;
-    text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
-    padding-left: 25px;
-    color: #fff;
-    position: absolute;
-    bottom: 40px;
-    margin: 50px;
-    font-size: medium;
-}
-.img-recipe{
-    padding: 2px;
-    border-radius: 10%;
-    width: auto;
-    height: 200px;
-    max-width: 290px;
-    text-align: center;
-    display: block;
-}
-.p-recipe{
-    color: white;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding-left: 12px;
-    bottom: 55px;
-    font-size:small;
-    position: absolute;
 
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 200px; 
-    line-height: 1.5;
-}
-
-.xem-them {
-    color: #e9e3e3;
-    position: absolute;
-    bottom: 25px;
-    padding-left: 12px;
-  }
-  
-  .xem-them:hover {
-    color: #f00;
-  }
-  
-.container-suggest {
-    text-align: center;
-}
-
-.container-suggest img {
-    border-radius: 50%;
-    width: 150px;
-}
 
 .img-footer{
     width: 100px;
@@ -111,13 +65,6 @@ h2 {
     color: #8FB780;
     
 }
-.content img{
-    border-radius: 15%;
-    padding: 6px;
-    width: 100px;
-}
-
-
 .div-header{
     background-color: #c6e197;
     height: 60px;
@@ -140,35 +87,26 @@ h2 {
     color: rgb(60, 12, 217);
 }
 
-
-
-.head {
-    line-height: 30px;
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-bottom: 5px;
-    display: flex;
-    clear: both;
-    max-width: fit-content;
-    overflow-y: auto;   
-}
-
-
-
-.content {
-    border: 1px solid #CDCDCD;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    height: auto;
+.right a{
+    font-weight: bold;
     
 }
-
-.right {
+.right{
+    width: 320px;
+    height: 663px;
     border: 1px solid #CDCDCD;
-    height: 710px;
+    float: right;
     background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
     margin-right: 3%;
+}
+.container-suggest {
+    text-align: center;
+}
+
+.container-suggest img {
+    border-radius: 50%;
+    width: 180px;
 }
 footer{
     align-items: center;
@@ -188,11 +126,9 @@ footer{
     font-size: small;
 }
 .footer-right{
-    /* margin-left:300px ; */
    float: right;
 }
 .footer .footer-right  {
-
     font-weight: bold;
 }
 .footer .footer-right .footer-right-icon a{
@@ -201,12 +137,6 @@ footer{
 .icon i{
     padding: 1px;
 }
-input {
-    border-radius: 20px;
-}
-
-.content .a-body .box-content {
+ .a-body {
     background-color: red;
 }
-
-
