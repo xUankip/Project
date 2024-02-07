@@ -192,6 +192,12 @@ button.ghost {
     transform: translateY(-20%);
 }
 
+.Home{
+    margin: 30px;
+    display: flex;
+    box-shadow: 30px 14px 28px rgba(0, 0, 5, .2), 0 10px 10px rgba(0, 0, 0, .2);
+}
+
 /* Move signin to right */
 .container.right-panel-active .sign-in-container {
     transform: translateY(100%);
