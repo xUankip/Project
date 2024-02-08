@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.slide-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  width: 33.33%;
+  height: auto;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.left {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+</style>
+</head>
+<body>
+
+<div class="slide-container">
+  <img class="slide active" src="images/banhflan.jpeg" alt="Image 1">
+  <img class="slide active" src="images/BunCha.jpg" alt="Image 2">
+  <img class="slide active" src="images/ChaoGaNam.jpg" alt="Image 3">
+  <img class="slide" src="images/GoiCuonTomThit1.jpg" alt="Image 4">
+  <img class="slide" src="images/SuaChuaHyLap.jpg" alt="Image 5">
+  <a class="arrow left">❮</a>
+  <a class="arrow right">❯</a>
+</div>
+
+
+
+<script>
+var slideIndices = [0, 1, 2];
+var slides = document.getElementsByClassName("slide");
+
+function showSlides(indices) {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Add modulo operation to handle cyclic behavior
+  for (var i = 0; i < 3; i++) {
+    slides[indices[i] % slides.length].style.display = "block";
+  }
+}
+
+function nextSlide() {
+  // Update indices circularly with modulo operation
+  if (slideIndices[0]!=5) {
+     var index0 = slideIndices[0] + 1;
+    } else {var index0 = 0;}
+
+    
+  if (slideIndices[1] !=5) {
+     var index1 = slideIndices[1] + 1;
+    } else {var index1 = 0;}
+  
+    if (slideIndices[2] !=4) {
+        var index2 = slideIndices[2] + 1;
+    } else {var index2 = 0;}
+  
+  slideIndices = [index0, index1,index2];
+  
+  showSlides(slideIndices);
+}
+function preSlide() {
+  // Update indices circularly considering left arrow movement
+  slideIndices = [(slideIndices[0] - 1 + slides.length) % slides.length, (slideIndices[1] - 1 + slides.length) % slides.length, (slideIndices[2] - 1 + slides.length) % slides.length];
+  showSlides(slideIndices);
+}
+
+var slideContainer = document.querySelector('.slide-container');
+var rightArrow = slideContainer.querySelector('.right');
+var leftArrow = slideContainer.querySelector('.left');
+
+rightArrow.addEventListener('click', nextSlide);
+
+leftArrow.addEventListener('click', preSlide);
+    </script>
+</body>
+</html>
