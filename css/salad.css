@@ -4,16 +4,9 @@ body{
 main{
     padding-left: 5%;
 }
-li{
-    position: relative;
-    padding: auto;
-}
-ul{
-    list-style: none;
-    display: inline-flex;
-}
 
 
+/* Comment */
 #comments {
     width: 100%;
     height: auto;
@@ -24,9 +17,7 @@ ul{
     margin-bottom: 10px;
     padding: 10px;
 }
-  
-
-
+/* header */
 header {
     font-weight: bold;
     text-decoration: none;
@@ -35,18 +26,44 @@ header {
     box-sizing: border-box;
 
 }
+.div-header{
+    background-color: #c6e197;
+    height: 60px;
+    display: block;
+    word-spacing: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 12px 0px;
+}
+.div-header a:hover{
+    color: rgb(60, 12, 217);
+}
 .sticky-header {
     position: sticky; 
     top: 0;
     z-index: 100; 
   }
+/* body */
+.ingredient{
+    padding-left: 10px;
+}
+
+/* ul li */
 ul li{
     padding:20px;
 }
-
-h2 {
-    text-align: center;
-    font-weight: bold;
+li{
+    position: relative;
+    padding: auto;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+/* IMG */
+.icon{
+    padding: 1px;
 }
 .img-title{
     height: 663px;
@@ -61,15 +78,17 @@ h2 {
     margin-right: auto;
     padding-top: 2%;
 }
-
-
-
 .img-footer{
     width: 100px;
     height: 100px;
 
 }
+.container-suggest img {
+    border-radius: 50%;
+    width: 180px;
+}
 
+/* Text-a */
 .a-header{
     text-decoration: none;
     color: rgb(32, 43, 52);
@@ -80,49 +99,38 @@ h2 {
     color: #8FB780;
     
 }
-.div-header{
-    background-color: #c6e197;
-    height: 60px;
-    display: block;
-    word-spacing: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    padding: 12px 0px;
-}
-
 .div-header a{
     padding: 15px 16px;
     text-decoration: none;
     position: relative;
 }
-
-
-.div-header a:hover{
-    color: rgb(60, 12, 217);
-}
-
 .right a{
+    font-weight: bold;   
+}
+.a-body {
+    background-color: red;
+}
+
+/* Text-p */
+.p-content{
+    padding: 1%;
+}
+.p-footer{
+    padding: 35px;
+    text-align: center;
+    font-size: small;
+}
+/* Text-h2 */
+h2 {
+    text-align: center;
     font-weight: bold;
-    
 }
-.right{
-    width: 320px;
-    height: 663px;
-    border: 1px solid #CDCDCD;
-    float: right;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 5px;
-    margin-right: 3%;
-}
+/* suggest */
 .container-suggest {
     text-align: center;
 }
 
-.container-suggest img {
-    border-radius: 50%;
-    width: 180px;
-}
+/* Footer */
 footer{
     align-items: center;
     bottom: 0;
@@ -135,11 +143,7 @@ footer{
     text-align: center;
     clear: both;
 }
-.p-footer{
-    padding: 35px;
-    text-align: center;
-    font-size: small;
-}
+
 .footer-right{
    float: right;
 }
@@ -149,9 +153,18 @@ footer{
 .footer .footer-right .footer-right-icon a{
     margin: 10px;
 }
-.icon i{
-    padding: 1px;
+/* right */
+.right{
+    
+    width: 320px;
+    height: 663px;
+    border: 1px solid #CDCDCD;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-right: 3%;
 }
- .a-body {
-    background-color: red;
-}
+
+
+
+
