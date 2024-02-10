@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -106,6 +106,44 @@ var leftArrow = slideContainer.querySelector('.left');
 rightArrow.addEventListener('click', nextSlide);
 
 leftArrow.addEventListener('click', preSlide);
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Comment System</title>
+    <style>
+        #comments {
+            width: 400px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .comment {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="comments"></div>
+    <textarea id="commentBox" rows="4" cols="50"></textarea>
+    <button onclick="postComment()">Post Comment</button>
+
+    <script>
+        function postComment() {
+            var commentBox = document.getElementById('commentBox');
+            var commentText = commentBox.value;
+            commentBox.value = '';
+            var comments = document.getElementById('comments');
+            var newComment = document.createElement('div');
+            newComment.className = 'comment';
+            newComment.textContent = commentText;
+            comments.appendChild(newComment);
+        }
     </script>
 </body>
 </html>

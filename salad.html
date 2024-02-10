@@ -58,10 +58,9 @@
 
 <hr>
 
-<div class="comment-container">
-    <input type="text" class="comment-input" placeholder="Enter your comment...">
-    <button class="comment-button">Comment</button>
-  </div>
+<div id="comments"></div>
+<textarea id="commentBox" rows="4" cols="50"></textarea>
+<button onclick="postComment()">Comment</button>
   
 <footer>
     <div class="footer">
@@ -81,5 +80,28 @@
         </div>
     </div>
 </footer>
+<script>
+    function postComment() {
+        var commentBox = document.getElementById('commentBox');
+        var commentText = commentBox.value;
+        if (commentText.trim() === '') {
+            alert('Must not be left blank');
+            return;
+        }
+        commentBox.value = '';
+        var comments = document.getElementById('comments');
+        var newComment = document.createElement('div');
+        newComment.className = 'comment';
+
+        // Tạo một phần tử p để chứa nội dung bình luận
+        var commentContent = document.createElement('p');
+        commentContent.textContent = commentText;
+        newComment.appendChild(commentContent); // Thêm nội dung bình luận vào bình luận
+
+        comments.appendChild(newComment, comments.firstChild);
+    }
+</script>
+
+
 </body>
 </html>
