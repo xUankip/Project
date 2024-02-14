@@ -26,16 +26,7 @@ header {
     box-sizing: border-box;
 
 }
-.div-header{
-    background-color: #c6e197;
-    height: 60px;
-    display: block;
-    word-spacing: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    padding: 12px 0px;
-}
+
 .div-header a:hover{
     color: rgb(60, 12, 217);
 }
@@ -155,7 +146,6 @@ footer{
 }
 /* right */
 .right{
-    
     width: 320px;
     height: 663px;
     border: 1px solid #CDCDCD;
@@ -164,6 +154,7 @@ footer{
     margin-bottom: 5px;
     margin-right: 3%;
 }
+
 
 
 

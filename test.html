@@ -111,7 +111,7 @@ leftArrow.addEventListener('click', preSlide);
 </html> -->
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Simple Comment System</title>
@@ -146,4 +146,19 @@ leftArrow.addEventListener('click', preSlide);
         }
     </script>
 </body>
-</html>
+</html> -->
+
+<form action="/search">
+  <input type="text" name="q" placeholder="Tìm kiếm..." id="search-input">
+  <button type="submit" id="search-button">Tìm</button>
+</form>
+<script>
+  const searchInput = document.getElementById("search-input");
+const searchButton = document.getElementById("search-button");
+
+searchButton.addEventListener("click", () => {
+  const keyword = searchInput.value;
+  // Xử lý dữ liệu tìm kiếm với keyword
+});
+
+</script>
