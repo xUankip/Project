@@ -232,20 +232,20 @@ input {
     background: #f9a825;
   }
   
-  #menu {
+  #menu {   
     top: 0;
     left: 0;
     right: 0;
     margin-top: 50px;
     display: none;
     position: fixed;
-    top: 60px;
+    top: 50px;
     right: 10px;
-    background-color: #fff;
+    background-color:#fff;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 99;
+    z-index: 9;
+    display: block;
   }
   
   #menu ul {
@@ -270,6 +270,9 @@ input {
   @media (min-width: 768px) {
     #menu-button {
       display: none;
+    }
+    #white-block{
+        display: none;
     }
   }
   
