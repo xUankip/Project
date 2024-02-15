@@ -219,13 +219,14 @@ input {
 }
 
 #menu-button {
+    border: #c6e197;
     position: fixed;
     top: 10px;
     right: 10px;
     width: 40px;
     height: 40px;
     background-color: transparent;
-    border-radius: 50%;
+    border-radius: 5%;
     cursor: pointer;
     z-index: 100;
     background: #f9a825;
@@ -255,7 +256,12 @@ input {
   #menu ul li {
     margin-bottom: 10px;
   }
-  
+  #menu a{
+    padding-left: 1%;
+    padding:1%;
+    text-decoration: none;
+    list-style: none;
+  }
   #menu ul li a {
     text-decoration: none;
     color: #333;
@@ -265,6 +271,5 @@ input {
     #menu-button {
       display: none;
     }
-
   }
   
