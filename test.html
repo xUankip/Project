@@ -168,30 +168,29 @@ searchButton.addEventListener("click", () => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Menu</title>
 <style>
-  #menu-button, #menu {
-    position: fixed;
-    z-index: 100;
-  }
   #menu-button {
+    position: absolute;
     top: 10px;
     right: 10px;
     width: 40px;
     height: 40px;
-    background-color: #f9a825;
+    background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 100;
+    background: #f9a825;
+    left: -999px; /* Di chuyển nút ra khỏi màn hình */
   }
   #menu {
-    top: 60px; /* Để menu không bị tràn ra khỏi màn hình */
-    right: 10px; /* Để menu không bị tràn ra khỏi màn hình */
-    width: 200px;
-    height: 100%;
-    background-color: #f0f0f0;
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
-  }
-  #menu.active {
-    transform: translateX(0);
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
   }
   #menu ul {
     list-style: none;
@@ -206,7 +205,7 @@ searchButton.addEventListener("click", () => {
   }
   @media (max-width: 768px) {
     #menu-button {
-      display: none;
+      left: 570px; /* Hiển thị nút menu khi thu nhỏ trang web */
     }
     #menu {
       width: 100px;
@@ -216,7 +215,7 @@ searchButton.addEventListener("click", () => {
 </head>
 <body>
 
-<div id="menu-button" class="square"></div>
+<div id="menu-button"></div>
 <div id="menu">
   <ul>
     <li><a href="#">Danh mục 1</a></li>
@@ -230,7 +229,7 @@ searchButton.addEventListener("click", () => {
   const menu = document.getElementById("menu");
 
   menuButton.addEventListener("click", () => {
-    menu.classList.toggle("active");
+    menu.style.display = menu.style.display === "none" ? "block" : "none";
   });
 </script>
 
