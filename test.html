@@ -148,7 +148,7 @@ leftArrow.addEventListener('click', preSlide);
 </body>
 </html> -->
 
-<form action="/search">
+<!-- <form action="/search">
   <input type="text" name="q" placeholder="Tìm kiếm..." id="search-input">
   <button type="submit" id="search-button">Tìm</button>
 </form>
@@ -158,7 +158,81 @@ const searchButton = document.getElementById("search-button");
 
 searchButton.addEventListener("click", () => {
   const keyword = searchInput.value;
-  // Xử lý dữ liệu tìm kiếm với keyword
 });
 
+</script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+<style>
+  #menu-button, #menu {
+    position: fixed;
+    z-index: 100;
+  }
+  #menu-button {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #f9a825;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  #menu {
+    top: 60px; /* Để menu không bị tràn ra khỏi màn hình */
+    right: 10px; /* Để menu không bị tràn ra khỏi màn hình */
+    width: 200px;
+    height: 100%;
+    background-color: #f0f0f0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+  #menu.active {
+    transform: translateX(0);
+  }
+  #menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  #menu ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  @media (max-width: 768px) {
+    #menu-button {
+      display: none;
+    }
+    #menu {
+      width: 100px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="menu-button" class="square"></div>
+<div id="menu">
+  <ul>
+    <li><a href="#">Danh mục 1</a></li>
+    <li><a href="#">Danh mục 2</a></li>
+    <li><a href="#">Danh mục 3</a></li>
+  </ul>
+</div>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const menu = document.getElementById("menu");
+
+  menuButton.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
 </script>
+
+</body>
+</html>
