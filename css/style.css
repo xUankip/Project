@@ -267,12 +267,10 @@ input {
     color: #333;
   }
   
-  @media (min-width: 768px) {
-    #menu-button {
+  @media only screen and (min-width: 768px) {
+    #menu, #menu-button {
       display: none;
-    }
-    #white-block{
-        display: none;
     }
   }
   
+
