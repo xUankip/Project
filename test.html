@@ -178,44 +178,54 @@ searchButton.addEventListener("click", () => {
     border-radius: 50%;
     cursor: pointer;
     z-index: 100;
-    background: #f9a825;
-    left: -999px; /* Di chuyển nút ra khỏi màn hình */
+    background: #f9a825; /* Customizable button color */
+    transition: all 0.3s ease-in-out; /* Smooth transition on hover */
   }
+
   #menu {
     position: absolute;
-  top: 0;
-  right: 10px;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 99;
+    top: 0;
+    right: 0; /* Always align to right edge */
+    width: 300px; /* Customizable menu width */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    transform: translateX(100%); /* Initially hidden but visible on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on show/hide */
   }
+
   #menu ul {
     list-style: none;
     padding: 0;
   }
+
   #menu ul li {
     margin-bottom: 10px;
   }
+
   #menu ul li a {
     text-decoration: none;
     color: #333;
   }
-  @media (max-width: 768px) {
+
+  @media (min-width: 768px) {
     #menu-button {
-      left: 570px; /* Hiển thị nút menu khi thu nhỏ trang web */
+      display: none; /* Optionally hide button on small screens */
     }
+
     #menu {
-      width: 100px;
+      width: 80%; /* Adapt menu width for smaller screens */
+      top: auto; /* Position menu at the bottom on small screens */
+      bottom: 0; /* Align menu to bottom edge */
     }
   }
-
 </style>
 </head>
 <body>
 
-<div id="menu-button"></div>
+<div id="menu-button" onmouseenter="showMenu()" onmouseleave="hideMenu()"></div>
 <div id="menu">
   <ul>
     <li><a href="#">Danh mục 1</a></li>
@@ -225,12 +235,15 @@ searchButton.addEventListener("click", () => {
 </div>
 
 <script>
-  const menuButton = document.getElementById("menu-button");
   const menu = document.getElementById("menu");
 
-  menuButton.addEventListener("click", () => {
-    menu.style.display = menu.style.display === "none" ? "block" : "none";
-  });
+  function showMenu() {
+    menu.style.transform = "translateX(0)"; /* Slide menu into view */
+  }
+
+  function hideMenu() {
+    menu.style.transform = "translateX(100%)"; /* Slide menu back out of view */
+  }
 </script>
 
 </body>

@@ -239,13 +239,15 @@ input {
     margin-top: 50px;
     display: none;
     position: fixed;
-    top: 50px;
-    right: 10px;
-    background-color:#fff;
+    background-color:#c6e197;
+    transition: all 0.5s ease-in-out;
+
     padding: 10px;
     border-radius: 5px;
     z-index: 9;
     display: block;
+    height: 100%;
+    width: 30%;
   }
   
   #menu ul {
@@ -270,6 +272,11 @@ input {
   @media only screen and (min-width: 768px) {
     #menu, #menu-button {
       display: none;
+    }
+  }
+  @media (max-width:325px){
+    #menu{
+        width: 100%;
     }
   }
   
