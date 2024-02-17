@@ -114,3 +114,53 @@ input {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+#team-avatar{
+    box-sizing: border-box;
+    display: block;
+    height: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+}
+#avatar{
+    box-sizing: border-box;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    height: 90px;
+    
+    width: 90px;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+    
+}
+#object  {
+    box-sizing: border-box;
+    display: block;
+    height: 90px;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+    transition-delay: 0.5s;
+    transition-duration: 0.9s, 0.9s;
+    transition-timing-function: ease-in-out;
+    width: 95px;
+    border-radius: 50%;
+    padding: 10%;
+}
+#loaded{
+    height: 91px;
+    left: 45px;
+    max-width: none;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    transform: matrix(1,0,0,1,-42,-46);
+    width: 91px;
+    
+}

@@ -25,6 +25,29 @@
 <body>
     <a href="/index.html"><img class="img-logo" src="../images/Quick Snack (2).png" alt="logo"></a>
     <div>
+        <div id="team-avatar">
+            <div id="avatar">
+                <span id="object">
+                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
+                </span>
+            </div>
+            <div id="avatar">
+                <span id="object">
+                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
+                </span>
+            </div>
+            <div id="avatar">
+                <span id="object">
+                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
+                </span>
+            </div>
+            <div id="avatar">
+                <span id="object">
+                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
+                </span>
+            </div>
+        </div>
+        
         <div class="intro">
             <p class="p-div">Hello, we are the programmers who founded this Quick Snack website.</p>
                 <p class="p-div"> Welcome to Quick Snack, your go-to online library for a culinary journey like no other! If you're a passionate home chef or someone eager to explore the art of cooking, this website is your one-stop destination for a plethora of mouthwatering recipes and cooking inspiration.</p>
@@ -33,6 +56,8 @@
                 <p class="p-div">But it doesn't stop there - join our vibrant community of food enthusiasts! Share your own kitchen adventures, connect with fellow cooks, and discover the latest culinary trends. Whether you're a solo cook or part of a family that loves to gather around the table, FlavorfulFeast.com is here to elevate your cooking experience.</p>
                 <p class="p-div">Embark on a flavorful journey with us at Quick Snack - where the joy of cooking meets the art of savoring every bite!</p>
         </div>
+    </div>
+
         <div>
             <h1>Contact Us</h1>
             <h3>Email</h3>
@@ -40,7 +65,7 @@
             <h3>Visit Us</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2122.9329453976306!2d105.78082135639623!3d21.02865078376905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4cd376479b%3A0xbc2e0bb9db373ed2!2zOGEgVMO0biBUaOG6pXQgVGh1eeG6v3QsIE3hu7kgxJDDrG5oLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSAxMDAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1708056544050!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </div>
+    
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -66,6 +91,18 @@
             </div>
         </div>
     </div>
+    <script>
+        var imgContainer = document.getElementById("avatar")
+        var img = document.querySelector("#loaded")
+
+        imgContainer.addEventListener("mouseover", function(){
+            img.style.trasnform = "scale(1.2)";
+        });
+
+        imgContainer.addEventListener("mouseout", function(){
+            img.style.trasnform = "scale(1)"
+        });
+    </script>
 </footer>
 </body>
 </html>
