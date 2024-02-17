@@ -164,3 +164,38 @@ input {
     width: 91px;
     
 }
+#object-hover{
+    top: -1%;
+    left: -1%;
+    width: 102%;
+    height: 102%;
+    transform: translateY(110%);
+    transition: .3s;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-radius: 50%;
+    transition-timing-function: ease-in-out;
+}
+#object-hover img{
+    position: absolute;
+    width: 101%;
+    height: 101%!important;
+    max-width: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    -webkit-backface-visibility: hidden;
+}
+img{
+    display: block;
+    border: none;
+    outline: none;
+}
+*:before,*:after{
+    box-sizing: border-box;
+}
