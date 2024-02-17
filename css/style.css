@@ -181,18 +181,12 @@ footer{
     
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
-    display: flex;
     text-align: center;
     clear: both;
 }
 .p-footer{
-    padding: 35px;
     text-align: center;
     font-size: small;
-}
-.footer-right{
-    /* margin-left:300px ; */
-   float: right;
 }
 .footer .footer-right  {
 
