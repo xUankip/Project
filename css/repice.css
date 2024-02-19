@@ -1,0 +1,42 @@
+header {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: #c6e197;
+    box-sizing: border-box;
+
+}
+.div-header{
+    background-color: #c6e197;
+    height: 60px;
+    display: block;
+    word-spacing: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 12px 0px;
+}
+.div-header a:hover{
+    color: rgb(60, 12, 217);
+}
+.sticky-header {
+    position: sticky; 
+    top: 0;
+    z-index: 100; 
+  }
+  ul li{
+    padding:20px;
+}
+li{
+    position: relative;
+    padding: auto;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+.a-header{
+    text-decoration: none;
+    color: rgb(32, 43, 52);
+    text-transform: uppercase ;
+}

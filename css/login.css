@@ -99,6 +99,7 @@ a {
 }
 
 button {
+    cursor: pointer;
     border-radius: 50px;
     box-shadow: 0 1px 1px ;
     border: 1px solid #c6e197;
@@ -190,6 +191,12 @@ button.ghost {
 
 .overlay-left {
     transform: translateY(-20%);
+}
+
+.Home{
+    margin: 30px;
+    display: flex;
+    box-shadow: 30px 14px 28px rgba(0, 0, 5, .2), 0 10px 10px rgba(0, 0, 0, .2);
 }
 
 /* Move signin to right */
