@@ -24,38 +24,28 @@
 </header>
 <body>
     <a href="/index.html"><img class="img-logo" src="../images/Quick Snack (2).png" alt="logo"></a>
-    <div>
-        <div id="team-avatar">
-            <div id="avatar">
-                <span id="object">
-                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
+        <section id="journey-content" class="width w-m fadeInUp delay1">
+            <div id="journey-avatar">
+            <div class="avatar">
+              <span class="object-fit fadeInUp delay5">
+                <img alt="Avatar" class="lazy loaded" srcset="https://i.imgur.com/RhKyHUq.jpg;auto=format,compress">
+              </span>
+              
+                <span class="avatar-hover object-fit fadeInUp delay5">
+                  <img alt="Avatar" class="lazy loaded" srcset="https://i.imgur.com/TCbzeAO.png;auto=format, compress">
                 </span>
             </div>
-            <div id="avatar">
-                <span id="object">
-                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
-                </span>
             </div>
-            <div id="avatar">
-                <span id="object">
-                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
-                </span>
+            <div class="intro">
+                <p class="p-div">Hello, we are the programmers who founded this Quick Snack website.</p>
+                    <p class="p-div"> Welcome to Quick Snack, your go-to online library for a culinary journey like no other! If you're a passionate home chef or someone eager to explore the art of cooking, this website is your one-stop destination for a plethora of mouthwatering recipes and cooking inspiration.</p>
+                    <p class="p-div">At Quick Snack, we have curated an extensive collection of diverse and selectable recipes from around the globe. Whether you're a seasoned cook looking to experiment with advanced techniques or a kitchen novice seeking simple yet satisfying meals, our library has something for everyone. From appetizers to desserts, vegetarian delights to hearty meat dishes, our carefully organized categories make it easy for you to navigate and find the perfect recipe for any occasion.</p>
+                    <p class="p-div">What sets Quick Snack apart is our commitment to providing not just recipes, but also detailed step-by-step instructions, cooking tips, and ingredient substitutes to ensure your culinary endeavors are a resounding success. Our user-friendly interface allows you to easily search for recipes, save your favorites, and even create personalized meal plans.</p>
+                    <p class="p-div">But it doesn't stop there - join our vibrant community of food enthusiasts! Share your own kitchen adventures, connect with fellow cooks, and discover the latest culinary trends. Whether you're a solo cook or part of a family that loves to gather around the table, FlavorfulFeast.com is here to elevate your cooking experience.</p>
+                    <p class="p-div">Embark on a flavorful journey with us at Quick Snack - where the joy of cooking meets the art of savoring every bite!</p>
             </div>
-            <div id="avatar">
-                <span id="object">
-                    <img onmouseover="this.src='/images/banhflan.jpeg'" onmouseout="this.src='/images/BunCha.jpg'" src="/images/BunCha.jpg" alt="asd" id="loaded">
-                </span>
-            </div>
-        </div>
+            </section>
         
-        <div class="intro">
-            <p class="p-div">Hello, we are the programmers who founded this Quick Snack website.</p>
-                <p class="p-div"> Welcome to Quick Snack, your go-to online library for a culinary journey like no other! If you're a passionate home chef or someone eager to explore the art of cooking, this website is your one-stop destination for a plethora of mouthwatering recipes and cooking inspiration.</p>
-                <p class="p-div">At Quick Snack, we have curated an extensive collection of diverse and selectable recipes from around the globe. Whether you're a seasoned cook looking to experiment with advanced techniques or a kitchen novice seeking simple yet satisfying meals, our library has something for everyone. From appetizers to desserts, vegetarian delights to hearty meat dishes, our carefully organized categories make it easy for you to navigate and find the perfect recipe for any occasion.</p>
-                <p class="p-div">What sets Quick Snack apart is our commitment to providing not just recipes, but also detailed step-by-step instructions, cooking tips, and ingredient substitutes to ensure your culinary endeavors are a resounding success. Our user-friendly interface allows you to easily search for recipes, save your favorites, and even create personalized meal plans.</p>
-                <p class="p-div">But it doesn't stop there - join our vibrant community of food enthusiasts! Share your own kitchen adventures, connect with fellow cooks, and discover the latest culinary trends. Whether you're a solo cook or part of a family that loves to gather around the table, FlavorfulFeast.com is here to elevate your cooking experience.</p>
-                <p class="p-div">Embark on a flavorful journey with us at Quick Snack - where the joy of cooking meets the art of savoring every bite!</p>
-        </div>
     </div>
 
         <div>
@@ -91,18 +81,6 @@
             </div>
         </div>
     </div>
-    <script>
-        var imgContainer = document.getElementById("avatar")
-        var img = document.querySelector("#loaded")
-
-        imgContainer.addEventListener("mouseover", function(){
-            img.style.trasnform = "scale(1.2)";
-        });
-
-        imgContainer.addEventListener("mouseout", function(){
-            img.style.trasnform = "scale(1)"
-        });
-    </script>
 </footer>
 </body>
 </html>
