@@ -54,7 +54,6 @@ h2 {
     font-size: medium;
 }
 .img-recipe{
-    margin-top: 10%;
     padding: 2px;
     border-radius: 10%;
     width: auto;
@@ -153,8 +152,6 @@ h2 {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 
@@ -229,10 +226,7 @@ input {
     z-index: 100;
     background: #f9a825;
   }
-  #gray-box{
-    background-color: #333;
-    float: right;
-  }
+  
   #menu {   
     top: 0;
     left: 0;
@@ -248,6 +242,7 @@ input {
     height: 100%;
     width: 30%;
   }
+  
   #menu ul {
     list-style: none;
     padding: 0;
@@ -278,5 +273,3 @@ input {
         width: 100%;
     }
   }
-  
-
