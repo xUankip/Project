@@ -213,6 +213,7 @@ input {
       scroll-snap-align: start;
       text-align: center;
       display: flex;
+      overflow-y:auto;
 }
 
 #menu-button {
