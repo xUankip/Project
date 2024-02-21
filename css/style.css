@@ -149,7 +149,6 @@ h2 {
     display: flex;
     clear: both;
     max-width: fit-content;
-    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
 }
