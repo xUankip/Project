@@ -35,7 +35,7 @@
   border-radius: 0 3px 3px 0;
 }
 
-.aright {
+.right {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -44,7 +44,6 @@
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-
 </style>
 </head>
 <body>
@@ -269,7 +268,7 @@ searchButton.addEventListener("click", () => {
     aaaa
     </div>
 </div> -->
-<section id="journey-content" class="width w-m fadeInUp delay1">
+<!-- <section id="journey-content" class="width w-m fadeInUp delay1">
 <div id="journey-avatar">
 <div class="avatar">
   <span class="object-fit fadeInUp delay5">
@@ -389,60 +388,60 @@ searchButton.addEventListener("click", () => {
 	left:0;
 	z-index:-1;
 	}
-</style>
+</style> -->
 
 
-<script>
-  const ratingContainer = document.getElementById("rating-container");
-const stars = document.querySelectorAll("#stars i");
-const averageRatingElement = document.getElementById("average-rating");
-const numberOfReviewsElement = document.getElementById("number-of-reviews");
-const submitReviewButton = document.getElementById("submit-review-button");
 
-let currentRating = 0;
 
-stars.forEach((star, index) => {
-  star.addEventListener("click", () => {
-    currentRating = index + 1;
-    updateRating();
-  });
-});
-
-function updateRating() {
-  stars.forEach((star, index) => {
-    if (index < currentRating) {
-      star.classList.add("fa-star-checked");
-    } else {
-      star.classList.remove("fa-star-checked");
-    }
-  });
-
-  averageRatingElement.textContent = `Đánh giá trung bình: ${currentRating}/5`;
+<div class="dropdown">
+  <a class="dropdown-toggle">Menu</a>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-submitReviewButton.addEventListener("click", () => {
-  // Lưu trữ đánh giá của người dùng
-  // Cập nhật số lượng đánh giá
-  // Hiển thị thông báo cảm ơn người dùng đã đánh giá
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 10%;
+  background-color: #f1f1f1;
+  padding: 16px;
+  border: none;
+}
 
-  alert("Cảm ơn bạn đã đánh giá!");
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+<script>
+  const dropdownToggle = document.querySelector('.dropdown-toggle');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+dropdownToggle.addEventListener('click', () => {
+  dropdownContent.classList.toggle('show');
 });
 
-updateRating();
-
 </script>
-
-
-<div id="rating-container">
-  <h2 id="product-name">Tên sản phẩm</h2>
-  <div id="stars">
-    <i class="fa fa-star" id="star-1"></i>
-    <i class="fa fa-star" id="star-2"></i>
-    <i class="fa fa-star" id="star-3"></i>
-    <i class="fa fa-star" id="star-4"></i>
-    <i class="fa fa-star" id="star-5"></i>
-  </div>
-  <p id="average-rating">Đánh giá trung bình: 4.5/5</p>
-  <p id="number-of-reviews">Số lượng đánh giá: 10</p>
-  <button id="submit-review-button">Gửi đánh giá</button>
-</div>
