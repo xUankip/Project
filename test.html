@@ -1,8 +1,9 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
 .slide-container {
+  height: 200px;
   max-width: 600px;
   position: relative;
   margin: auto;
@@ -111,7 +112,7 @@ leftArrow.addEventListener('click', preSlide);
 </html>
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Simple Comment System</title>
@@ -127,8 +128,8 @@ leftArrow.addEventListener('click', preSlide);
             padding: 10px;
         }
     </style>
-</head>
-<body>
+</head> -->
+<!-- <body>
     <div id="comments"></div>
     <textarea id="commentBox" rows="4" cols="50"></textarea>
     <button onclick="postComment()">Post Comment</button>
@@ -146,7 +147,7 @@ leftArrow.addEventListener('click', preSlide);
         }
     </script>
 </body>
-</html> -->
+</html>  -->
 
 <!-- <form action="/search">
   <input type="text" name="q" placeholder="Tìm kiếm..." id="search-input">
@@ -267,7 +268,7 @@ searchButton.addEventListener("click", () => {
     aaaa
     </div>
 </div> -->
-<section id="journey-content" class="width w-m fadeInUp delay1">
+<!-- <section id="journey-content" class="width w-m fadeInUp delay1">
 <div id="journey-avatar">
 <div class="avatar">
   <span class="object-fit fadeInUp delay5">
@@ -387,4 +388,60 @@ searchButton.addEventListener("click", () => {
 	left:0;
 	z-index:-1;
 	}
+</style> -->
+
+
+
+
+<div class="dropdown">
+  <a class="dropdown-toggle">Menu</a>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 10%;
+  background-color: #f1f1f1;
+  padding: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 </style>
+<script>
+  const dropdownToggle = document.querySelector('.dropdown-toggle');
+const dropdownContent = document.querySelector('.dropdown-content');
+
+dropdownToggle.addEventListener('click', () => {
+  dropdownContent.classList.toggle('show');
+});
+
+</script>

@@ -35,12 +35,12 @@ h2 {
 }
 
 .img-logo{
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2%;
+    /* padding-top: 2%; */
 }
 
 .p-DanhMuc{
@@ -149,7 +149,6 @@ h2 {
     display: flex;
     clear: both;
     max-width: fit-content;
-    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     white-space: nowrap;
 }
@@ -210,6 +209,7 @@ input {
       scroll-snap-align: start;
       text-align: center;
       display: flex;
+      overflow-y:auto;
 }
 
 #menu-button {
@@ -240,6 +240,7 @@ input {
     display: block;
     height: 100%;
     width: 30%;
+    
   }
   
   #menu ul {
@@ -255,6 +256,7 @@ input {
     padding-left: 1%;
     padding:1%;
     text-decoration: none;
+    text-align: center;
     list-style: none;
   }
   #menu ul li a {
@@ -271,4 +273,37 @@ input {
     #menu{
         width: 100%;
     }
+  }
+
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+    background-color: #c6e197
+    border: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
