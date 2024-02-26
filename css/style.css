@@ -41,52 +41,82 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
-.p-DanhMuc{
-    text-transform: uppercase;
-    text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
-    padding-left: 25px;
-    color: #fff;
-    position: absolute;
-    bottom: 40px;
-    margin: 50px;
-    font-size: medium;
+#cards-content{
+padding-left: 40px;
+padding-bottom: 20px;
 }
-.img-recipe{
-    padding: 2px;
-    border-radius: 10%;
-    width: auto;
-    height: 200px;
-    max-width: 290px;
-    text-align: center;
-    display: block;
-}
-.p-recipe{
-    color: white;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding-left: 12px;
-    bottom: 55px;
-    font-size:small;
-    position: absolute;
-
-    white-space: nowrap;
+.glid{
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    width:100%;
     overflow: hidden;
-    text-overflow: ellipsis;
-    width: 200px; 
-    line-height: 1.5;
+    display: flex;
 }
-
-.xem-them {
-    color: #e9e3e3;
+.cards{
+    width: 228px;
+    aspect-ratio: 1 / 0.7;
+    border: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+.cards .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+.cards::after{
+    content: "";
     position: absolute;
-    bottom: 25px;
-    padding-left: 12px;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.cards:hover img{
+    filter: grayscale(0)
+    brightness(0.4);
+}
+.cards:hover::after{
+    opacity: 1;
+    inset: 5px;
+}
+.cards:hover .img-content h3{
+    scale: 1;
+    opacity: 1;
+}
+.cards:hover .img-content p{
+    opacity: 1;
+    transform: translateY(0);
+}
+.img-content h3 {
+    margin-bottom: 12px;
+    scale: 0.7;
   }
   
-  .xem-them:hover {
-    color: #f00;
+.img-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d1d1d1;
+    transform: translateY(50%);
   }
-  
+.img-content h3,
+.img-content p {
+  opacity: 0;
+  transition: 0.4s 0.2s ease;
+}
+.img-content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 .container-suggest {
     text-align: center;
 }
@@ -284,7 +314,11 @@ input {
   .dropdown-toggle {
     cursor: pointer;
     background-color: #c6e197;
+<<<<<<< HEAD
 
+=======
+    border : none;
+>>>>>>> cf959e49e1675ce4f53878177706c2fbb4e82418
   }
   
   .dropdown-content {
@@ -305,3 +339,81 @@ input {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+.p-DanhMuc{
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
+    padding-left: 25px;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    margin: 50px;
+    font-size: medium;
+}
+.img-recipe{
+    padding: 2px;
+    border-radius: 10%;
+    width: auto;
+    height: 200px;
+    max-width: 290px;
+    text-align: center;
+    display: block;
+}
+.p-recipe{
+    color: white;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+    bottom: 55px;
+    font-size:small;
+    position: absolute;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px; 
+    line-height: 1.5;
+}
+
+.xem-them {
+    color: #e9e3e3;
+    position: absolute;
+    bottom: 25px;
+    padding-left: 12px;
+  }
+  
+  .xem-them:hover {
+    color: #f00;
+  }
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
