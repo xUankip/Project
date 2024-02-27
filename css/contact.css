@@ -62,68 +62,71 @@ ul li{
   input {
     border-radius: 20px;
 }
+
+
 #menu-button {
-    border: #c6e197;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border-radius: 5%;
-    cursor: pointer;
-    z-index: 100;
-    background: #f9a825;
-  }
+  border: #c6e197;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 5%;
+  cursor: pointer;
+  z-index: 100;
+  background: #f9a825;
+}
+
+#menu {   
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  display: none;
+  position: fixed;
+  background-color:#c6e197;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9;
+  display: block;
+  height: 100%;
+  width: 30%;
   
-  #menu {   
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-top: 50px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu ul li {
+  margin-bottom: 10px;
+}
+#menu a{
+  color: #fff;
+  padding-left: 1%;
+  padding:1%;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+}
+#menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+@media only screen and (min-width: 768px) {
+  #menu, #menu-button {
     display: none;
-    position: fixed;
-    background-color:#c6e197;
-    padding: 10px;
-    border-radius: 5px;
-    z-index: 9;
-    display: block;
-    height: 100%;
-    width: 30%;
-    
   }
-  
-  #menu ul {
-    list-style: none;
-    padding: 0;
+}
+@media (max-width:325px){
+  #menu{
+      width: 100%;
   }
-  
-  #menu ul li {
-    margin-bottom: 10px;
-  }
-  #menu a{
-    color: #fff;
-    padding-left: 1%;
-    padding:1%;
-    text-decoration: none;
-    text-align: center;
-    list-style: none;
-  }
-  #menu ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    #menu, #menu-button {
-      display: none;
-    }
-  }
-  @media (max-width:325px){
-    #menu{
-        width: 100%;
-    }
-  }
+}
+
   body{
     background-color: #faffe6;
   }
