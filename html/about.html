@@ -12,16 +12,55 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEQngsV7Zt27NXF@a@ApmYm81iuXoPkF0JwJ8ERdkLPM0" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/about.css">
 </head>
-    <header class="sticky-header">
-        <ul>
-            <li><a class="a-header" href="../index.html"><i class="fa-solid fa-house">|Home</i></a></li>
-            <li><a class="a-header" href="../html/recipe.html"><i class="fa-solid">Recipe</i></a></li>
-            <li><a class="a-header" href="../html/about.html"><i class="fa-solid">About Us</i></a></li>
-            <li><input type="text" alt="Search" placeholder="Search"></li>
-            <li><a class="a-header" href="../html/login.html"><i class="fa-solid fa-user">|Login</i></a></li>
-        </ul>
-    </div>
+<header class="sticky-header">
+  <div class="row">
+      <ul>
+          <li class="col-lg-2"><a href="../index.html"><img class="img-logo-header" src="../images/Quick Snack (2).png" alt="logo"></a></li>
+          <li class="col-lg-1"></li>
+          <li class="col-lg-1"><a id="menu-header" class="a-header" href="../index.html"><i class="fa-solid fa-house">|Home</i></a></li>
+      <div class="dropdown">
+          <li class="col-lg-1"><a id="menu-header" class="a-header" href="../html/recipe.html"><i class="fa-solid dropdown-toggle">Recipe</i></a></li>
+              <div class="dropdown-content">
+              <a href="#">DanhMuc1</a>
+              <a href="#">DanhMuc2</a>
+              <a href="#">DanhMuc3</a>
+              <a href="#">DanhMuc4</a>
+              <a href="#">DanhMuc5</a>
+              </div>
+      </div>
+          <li class="col-lg-1"><a id="menu-header" class="a-header" href="../html/about.html"><i class="fa-solid">About Us</i></a></li>
+          <li class="col-lg-1"><a id="menu-header" class="a-header" href="../html/contact.html"><i class="fa-solid">ConTact</i></a></li>
+          <li class="col-lg-2"><input id="menu-header" type="text" alt="Search" placeholder="  Search"></li>
+          <li class="col-lg-1"><a id="menu-header" class="a-header" href="../html/login.html"><i class="fa-solid fa-user">|Login</i></a>
+          <li class="col-lg-2"></li>    
+          </li>
+      </ul>
+  </div>
 </header>
+<div class="navbar-toggle">
+  <button type="button" aria-label="Menu" id="menu-button">
+      <i class="fa fa-bars"></i>
+  </button>
+</div>
+<div id="menu">
+  <lu>
+      <a href="../index.html">
+          <li>Home</li>
+      </a>
+      <a href="../html/recipe.html">
+          <li>Recipe</li>
+      </a>
+      <a href="../html/about.html">
+          <li>About Us</li>
+      </a>
+      <a href="../html/contact.html">
+          <li>Contact</li>
+      </a>
+      <a href="../html/login.html">
+          <li>Login</li>
+      </a>
+  </lu>
+</div>
 <body>
     <a href="/index.html"><img class="img-logo" src="../images/Quick Snack (2).png" alt="logo"></a>
         <section id="journey-content" class="width w-m fadeInUp delay1">
@@ -74,15 +113,6 @@
             </section>
         
     </div>
-
-        <div>
-            <h1>Contact Us</h1>
-            <h3>Email</h3>
-            aptech.fpt@fe.edu.vn
-            <h3>Visit Us</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2122.9329453976306!2d105.78082135639623!3d21.02865078376905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4cd376479b%3A0xbc2e0bb9db373ed2!2zOGEgVMO0biBUaOG6pXQgVGh1eeG6v3QsIE3hu7kgxJDDrG5oLCBD4bqndSBHaeG6pXksIEjDoCBO4buZaSAxMDAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1708056544050!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -90,7 +120,7 @@
     <div class="footer">
         <div class="row">
             <div class="image_banner col-lg-12">
-                <a href="index.html"><img class="img-footer" src="images/Quick Snack (2).png" alt=""></a>
+                <a href="../index.html"><img class="img-footer" src="../images/Quick Snack (2).png" alt=""></a>
             </div>
             
         </div>

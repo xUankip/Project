@@ -1,0 +1,175 @@
+main{
+    padding-left: 5%;
+}
+
+li{
+    position: relative;
+    padding: auto;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+header {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: #c6e197;
+    box-sizing: border-box;
+    position: sticky; 
+    top: 0;
+    z-index: 100; 
+}
+@media (max-width:768px){
+    #menu-header{
+        display: none;
+    }
+}
+ul li{
+    margin-top: 10px;
+}
+.img-logo{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 2%; */
+}
+.a-header{
+    text-decoration: none;
+    color: rgb(32, 43, 52);
+    text-transform: uppercase ;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  input {
+    border-radius: 20px;
+}
+#menu-button {
+    border: #c6e197;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5%;
+    cursor: pointer;
+    z-index: 100;
+    background: #f9a825;
+  }
+  
+  #menu {   
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    display: none;
+    position: fixed;
+    background-color:#c6e197;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9;
+    display: block;
+    height: 100%;
+    width: 30%;
+    
+  }
+  
+  #menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  #menu a{
+    color: #fff;
+    padding-left: 1%;
+    padding:1%;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+  }
+  #menu ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #menu, #menu-button {
+      display: none;
+    }
+  }
+  @media (max-width:325px){
+    #menu{
+        width: 100%;
+    }
+  }
+  body{
+    background-color: #faffe6;
+  }
+  h1 {
+    font-family: Serif;
+    text-align: center;
+    font-size:70px;
+  }
+  p{
+    font-family: Helvetica;
+    text-align: center;
+  }
+  h2{
+    font-family: Serif;
+    text-align: center;
+    font-size: 35px;
+  }
+  h5{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .information{
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .content{
+    margin-top: 25px;
+  }
+  .a-content{
+    text-decoration: none;
+    color: rgb(88, 168, 233);
+    /* text-transform: uppercase ; */
+  }
+  .ggmap{
+    text-align: center;
+  }
+  .img-footer{
+    width: 80px;
+    height: 80px;
+
+}
+.footer {
+    
+    border: 2px solid #e9e3e3;
+    background-color: #c6e197;
+    display: flex;
+    text-align: center;
+    clear: both;
+}
