@@ -63,23 +63,23 @@ h2 {
     opacity: 1;
     inset: 5px;
 }
-.cards:hover .img-content h3{
+.cards:hover .img-content {
     scale: 1;
     opacity: 1;
 }
-.cards:hover .img-content p{
+.cards:hover .img-content {
     opacity: 1;
     transform: translateY(0);
 }
-.img-content h3 {
+.img-content a{
     margin-bottom: 12px;
     scale: 0.7;
   }
   
-.img-content p {
+.img-content a {
     font-size: 14px;
     line-height: 1.5;
-    color: #d1d1d1;
+    color: #e5f7b2;
     transform: translateY(50%);
   }
 .img-content h3,
@@ -177,7 +177,7 @@ h2 {
     margin-bottom: 5px;
     margin-right: 3%;
     position: sticky;
-    top: 100px;
+    top: 120px;
 }
 footer{
     align-items: center;
@@ -212,12 +212,6 @@ input {
     background-color: red;
 }
 
-#scrolling-item{
-      scroll-snap-align: start;
-      text-align: center;
-      display: flex;
-      overflow-y:auto;
-}
 
 #menu-button {
     border: #c6e197;
@@ -314,47 +308,10 @@ input {
     display: block;
   }
 
-.p-DanhMuc{
-    text-transform: uppercase;
-    text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
-    padding-left: 25px;
-    color: #fff;
-    position: absolute;
-    bottom: 40px;
-    margin: 50px;
-    font-size: medium;
-}
-.img-recipe{
-    padding: 2px;
-    border-radius: 10%;
-    width: auto;
-    height: 200px;
-    max-width: 290px;
-    text-align: center;
-    display: block;
-}
-.p-recipe{
-    color: white;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding-left: 12px;
-    bottom: 55px;
-    font-size:small;
-    position: absolute;
-
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 200px; 
-    line-height: 1.5;
-}
-
-.xem-them {
-    color: #e9e3e3;
-    position: absolute;
-    bottom: 25px;
-    padding-left: 12px;
+  .xem-them:hover {
+    color: #f00;
   }
-  
+
   .xem-them:hover {
     color: #f00;
   }
@@ -390,4 +347,10 @@ input {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
     transform: translateX(0);
+}
+.card-img-overlay a{
+    color: #e9e3e3;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
