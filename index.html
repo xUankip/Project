@@ -19,25 +19,29 @@
 <body>
 
     <header class="sticky-header">
-        <ul>
-            <li><a href="index.html"><img class="img-logo" src="images/Quick Snack (2).png" alt="logo"></a></li>
-            <li><a id="menu-header" class="a-header" href="index.html"><i class="fa-solid fa-house">|Home</i></a></li>
+        <div class="row">
+            <ul>
+                <li class="col-lg-2"><a href="index.html"><img class="img-logo" src="images/Quick Snack (2).png" alt="logo"></a></li>
+                <li class="col-lg-1"></li>
+                <li class="col-lg-1"><a id="menu-header" class="a-header" href="index.html"><i class="fa-solid fa-house">|Home</i></a></li>
             <div class="dropdown">
-                <li><a id="menu-header" class="a-header" href="html/recipe.html"><i class="fa-solid dropdown-toggle">Recipe</i></a></li>
-                <div class="dropdown-content">
+                <li class="col-lg-1"><a id="menu-header" class="a-header" href="html/recipe.html"><i class="fa-solid dropdown-toggle">Recipe</i></a></li>
+                    <div class="dropdown-content">
                     <a href="#">DanhMuc1</a>
                     <a href="#">DanhMuc2</a>
                     <a href="#">DanhMuc3</a>
                     <a href="#">DanhMuc4</a>
                     <a href="#">DanhMuc5</a>
-                  </div>
+                    </div>
             </div>
-            <li><a id="menu-header" class="a-header" href="html/about.html"><i class="fa-solid">About Us</i></a></li>
-            <li><input id="menu-header" type="text" alt="Search" placeholder="  Search"></li>
-            <li><a id="menu-header" class="a-header" href="html/login.html"><i class="fa-solid fa-user">|Login</i></a>
-            </li>
-        </ul>
-        </div>
+                <li class="col-lg-1"><a id="menu-header" class="a-header" href="html/about.html"><i class="fa-solid">About Us</i></a></li>
+                <li class="col-lg-1"><a id="menu-header" class="a-header" href="#"><i class="fa-solid">ConTact</i></a></li>
+                <li class="col-lg-2"><input id="menu-header" type="text" alt="Search" placeholder="  Search"></li>
+                <li class="col-lg-1"><a id="menu-header" class="a-header" href="html/login.html"><i class="fa-solid fa-user">|Login</i></a>
+                <li class="col-lg-2"></li>    
+                </li>
+            </ul>
+    </div>
     </header>
     <div class="navbar-toggle">
         <button type="button" aria-label="Menu" id="menu-button">
