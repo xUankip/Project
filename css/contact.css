@@ -161,15 +161,24 @@ ul li{
     text-align: center;
   }
   .img-footer{
-    width: 80px;
-    height: 80px;
-
-}
-.footer {
-    
+    width: 100px;
+    height: 100px;
+  }
+  footer{
+    align-items: center;
+    bottom: 0;
+  }
+  .footer {
+      
     border: 2px solid #e9e3e3;
     background-color: #c6e197;
-    display: flex;
     text-align: center;
     clear: both;
-}
+  }
+  .footer .footer-right  {
+  
+    font-weight: bold;
+  }
+  .footer .footer-right .footer-right-icon a{
+    margin: 10px;
+  }
