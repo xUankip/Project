@@ -345,11 +345,8 @@ input {
 .carousel-inner .carousel-item-start { 
     transform: translateX(0);
 }
-.card-img-overlay a{
-    color: #e9e3e3;
-    font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+<<<<<<< HEAD
 }
 
 
@@ -370,4 +367,8 @@ input {
   
   .xem-them:hover {
     color: #8FB780;
+=======
+.checked {
+    color: orange;
+>>>>>>> 52bb667dcad83be067aa8044a8dc1301142fea46
   }
