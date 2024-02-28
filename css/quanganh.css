@@ -10,7 +10,9 @@
 .form-control mr-sm-2 {
     border-radius: 20px;
 }
-
+a{
+  color:#e9d8a6 ;
+}
 .btn btn-outline-success my-2 my-sm-0 {
     border-radius: 20px;
 }
