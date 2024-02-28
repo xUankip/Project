@@ -1,34 +1,22 @@
+.img-logo{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 2%; */
+}
 
-main{
-    padding-left: 5%;
+.form-control mr-sm-2 {
+    border-radius: 20px;
 }
-li{
-    position: relative;
-    padding: auto;
-    height: 40px;
+
+.btn btn-outline-success my-2 my-sm-0 {
+    border-radius: 20px;
 }
-ul{
-    list-style: none;
-    display: flex;
-}
-header {
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    background-color: #c6e197;
-    box-sizing: border-box;
-    position: sticky; 
-    top: 0;
-    z-index: 100; 
-}
-@media (max-width:768px){
-    #menu-header{
-        display: none;
-    }
-}
-ul li{
-    margin-top: 10px;
-}
+
+
+
 
 h2 {
     text-align: center;
@@ -78,7 +66,7 @@ h2 {
   }
   
 .img-content a {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     color: #e5f7b2;
     transform: translateY(50%);
@@ -115,12 +103,11 @@ h2 {
     text-decoration: none;
     color: rgb(32, 43, 52);
     text-transform: uppercase ;
-    word-spacing: 100px;
 }
 
 .a-body{
     color: #8FB780;
-    padding-left: 12px;    
+    
 }
 .content img{
     border-radius: 15%;
@@ -287,7 +274,7 @@ input {
     border : none;
   }
   
-  .dropdown-content {
+  .dropdown-item {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -295,14 +282,14 @@ input {
     z-index: 1;
   }
   
-  .dropdown-content a {
+  .dropdown-item a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-item {
     display: block;
   }
 
@@ -347,33 +334,6 @@ input {
     transform: translateX(0);
 }
 
-
-
-.card-text{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 410px; 
-    line-height: 1.5;
-}
-.xem-them {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .xem-them:hover {
-    color: #8FB780;
-  }
-.checked {
-    color: orange;
-  }
-    
-    .checked {
-    color: orange;
-    }
 .checked {
     color: orange;
   }
