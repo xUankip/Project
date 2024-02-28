@@ -114,11 +114,12 @@ h2 {
     text-decoration: none;
     color: rgb(32, 43, 52);
     text-transform: uppercase ;
+    word-spacing: 100px;
 }
 
 .a-body{
     color: #8FB780;
-    
+    padding-left: 12px;    
 }
 .content img{
     border-radius: 15%;
@@ -345,6 +346,29 @@ input {
     transform: translateX(0);
 }
 
+<<<<<<< HEAD
+}
+
+
+.card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 410px; 
+    line-height: 1.5;
+}
+.xem-them {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .xem-them:hover {
+    color: #8FB780;
+=======
 .checked {
     color: orange;
+>>>>>>> 52bb667dcad83be067aa8044a8dc1301142fea46
   }
