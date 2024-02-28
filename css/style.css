@@ -77,7 +77,7 @@ h2 {
   }
   
 .img-content a {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     color: #e5f7b2;
     transform: translateY(50%);
@@ -346,29 +346,6 @@ input {
     transform: translateX(0);
 }
 
-<<<<<<< HEAD
-}
-
-
-.card-text{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 410px; 
-    line-height: 1.5;
-}
-.xem-them {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .xem-them:hover {
-    color: #8FB780;
-=======
 .checked {
     color: orange;
->>>>>>> 52bb667dcad83be067aa8044a8dc1301142fea46
   }
