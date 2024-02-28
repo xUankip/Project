@@ -346,10 +346,6 @@ input {
     transform: translateX(0);
 }
 
-<<<<<<< HEAD
-}
-
-
 .card-text{
     white-space: nowrap;
     overflow: hidden;
@@ -367,8 +363,7 @@ input {
   
   .xem-them:hover {
     color: #8FB780;
-=======
-.checked {
+    }
+    .checked {
     color: orange;
->>>>>>> 52bb667dcad83be067aa8044a8dc1301142fea46
-  }
+    }
