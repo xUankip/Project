@@ -23,15 +23,6 @@ h2 {
   font-weight: bold;
 }
 
-.img-logo{
-  width: 70px;
-  height: 70px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* / padding-top: 2%; / */
-}
-
 .p-DanhMuc{
   text-transform: uppercase;
   text-shadow: 10px 10px 10px rgba(21, 97, 55, 0.5);
@@ -93,63 +84,14 @@ transition: 0.4s 0.2s ease;
   width: 150px;
 }
 
-.img-footer{
-  width: 100px;
-  height: 100px;
-
-}
-
-.a-header{
-  text-decoration: none;
-  color: rgb(32, 43, 52);
-  text-transform: uppercase ;
-}
-
 .a-body{
   color: #8FB780;
-  
 }
 .content img{
   border-radius: 15%;
   padding: 6px;
   width: 100px;
 }
-
-
-.div-header{
-  background-color: #c6e197;
-  height: 60px;
-  display: block;
-  word-spacing: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
-  padding: 12px 0px;
-}
-
-.div-header a{
-  padding: 15px 16px;
-  text-decoration: none;
-  position: relative;
-}
-
-
-.div-header a:hover{
-  color: rgb(60, 12, 217);
-}
-.head {
-  line-height: 30px;
-  padding-left: 20px;
-  padding-right: 10px;
-  margin-bottom: 5px;
-  display: flex;
-  clear: both;
-  max-width: fit-content;
-  scroll-snap-type: x mandatory;
-  white-space: nowrap;
-}
-
-
 
 .content {
   border: 1px solid #CDCDCD;
@@ -167,24 +109,6 @@ transition: 0.4s 0.2s ease;
   margin-right: 3%;
   position: sticky;
   top: 120px;
-}
-footer{
-  align-items: center;
-  bottom: 0;
-}
-.footer {
-  
-  border: 2px solid #e9e3e3;
-  background-color: #c6e197;
-  text-align: center;
-  clear: both;
-}
-.footer .footer-right  {
-
-  font-weight: bold;
-}
-.footer .footer-right .footer-right-icon a{
-  margin: 10px;
 }
 .icon i{
   padding: 1px;
@@ -219,7 +143,7 @@ input {
   margin-top: 50px;
   display: none;
   position: fixed;
-  background-color:#c6e197;
+  background-color:#6db657;
   padding: 10px;
   border-radius: 5px;
   z-index: 9;
@@ -270,7 +194,6 @@ input {
 
 .dropdown-toggle {
   cursor: pointer;
-  background-color: #c6e197;
   border : none;
 }
 
