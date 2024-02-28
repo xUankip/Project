@@ -85,7 +85,7 @@ transition: 0.4s 0.2s ease;
   color: #8FB780;
 }
 .content img{
-  border-radius: 15%;
+  border-radius: 50%;
   padding: 6px;
   width: 100px;
 }
