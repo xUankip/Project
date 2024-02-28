@@ -4,7 +4,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  / padding-top: 2%; /
+  /* padding-top: 2%; */
 }
 
 .form-control mr-sm-2 {
@@ -29,7 +29,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  / padding-top: 2%; /
+  /* padding-top: 2%; */
 }
 
 .p-DanhMuc{
@@ -298,15 +298,15 @@ input {
 }
 
 .xem-them:hover {
-  color: #f00;
+    color: #f00;
 }
 @media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-      display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-      display: block;
-  }
+.carousel-inner .carousel-item > div {
+    display: none;
+}
+.carousel-inner .carousel-item > div:first-child {
+    display: block;
+}
 }
 
 .carousel-inner .carousel-item.active,
@@ -315,25 +315,30 @@ input {
   display: flex;
 }
 
-/ medium and up screens /
-@media (min-width: 768px) {
+medium and up screens {
+@media (min-width: 768px) 
+}
 
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-  }
+.carousel-inner .carousel-item-end.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
 
-  .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-  }
+.carousel-inner .carousel-item-start.active, 
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
 }
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
-  transform: translateX(0);
+transform: translateX(0);
 }
 
 .checked {
-  color: orange;
+color: orange;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  text-align: center;
 }
