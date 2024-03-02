@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html>
-
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <style>/* Kiểu nút Dropdown */
+      .dropbtn {
+          background-color: #58257b;
+            color: white;  font-weight: bold;  
+            padding: 16px;  font-size: 16px;  
+            border: none;  
+            cursor: pointer;}
+            /* Dùng trong <div> để định vị nội dung thả xuống */
+            .dropdown {
+                position: relative;  
+                display: inline-block;}
+            .dropdown-content {
+                display: none;  
+                position: absolute;  
+                background-color: #e9d8f4;  
+                min-width: 160px;  
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  z-index: 1;}
+                .dropdown-content a {
+                    color: black;  
+                    padding: 12px 16px;  
+                    text-decoration: none;  
+                    display: block;}
+                    .dropdown-content a:hover {
+                        background-color: #58257b;  color: white;}
+                        .dropdown:hover .dropdown-content {  display: block;}
+                        .dropdown:hover .dropbtn {  background-color: #984eca;}
+                        </style>
+                        </head>
+                        <body>
+                          <h2>Dropdown Menu</h2>
+                          <p>Di chuột qua nút phía dưới để hiển thị menu thả xuống.(by: QTM.com)</p>
+                          <div class="dropdown">  
+                            <button class="dropbtn">Lập trình</button>  
+                            <div class="dropdown-content">  
+                              <a href="https://quantrimang.com/hoc-css">CSS và CSS3</a> 
+                              <a href="https://quantrimang.com/html">HTML</a> 
+                              <a href="https://quantrimang.com/python">Python</a>
+                            </div>
+                          </div>
+                        </body>
+                        </html>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">

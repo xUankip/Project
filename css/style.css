@@ -106,7 +106,7 @@ transition: 0.4s 0.2s ease;
   /* top: 100px; */
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 100;
 }
 .icon i{
   padding: 1px;
@@ -269,4 +269,11 @@ color: orange;
   right: 0;
   z-index: 999;
   position: sticky;
+}
+.p-menu{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
 }
