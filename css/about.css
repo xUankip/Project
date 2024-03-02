@@ -89,7 +89,7 @@ ul li{
     margin-top: 50px;
     display: none;
     position: fixed;
-    background-color:#c6e197;
+    background-color:#54cada;
     padding: 10px;
     border-radius: 5px;
     z-index: 9;
@@ -156,13 +156,6 @@ footer{
   bottom: 0;
 }
 
-.footer {
-    
-  border: 2px solid #e9e3e3;
-  background-color: #c6e197;
-  text-align: center;
-  clear: both;
-}
 
 .footer .footer-right  {
 
@@ -182,19 +175,13 @@ footer{
     padding-top: 2%;
 }
 
-.intro{
-    border: 1px solid #c6e197;
-    border-radius: 5%;
-    margin: 10px 15%;
-    background-color: #c6e197;
-    box-shadow: 0px 1px 5px;
-}
 
 .p-div{
+  font-weight: bold;
     padding:5px;
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color: #a3790f;
+    color: #ec8c43;
     margin-left: 10%; 
     margin-right: 10%;
     margin-top: 5%;
@@ -257,7 +244,7 @@ footer{
 	position:relative;
 	margin:180px auto 90px;
 	padding:80px 100px;
-	background:#faffe6;
+	background:#baedf4;
 	}
     
 	#journey-content h1{

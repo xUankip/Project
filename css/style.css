@@ -82,7 +82,7 @@ transition: 0.4s 0.2s ease;
 }
 
 .a-body{
-  color: #8FB780;
+  color: #54cada;
 }
 .content img{
   border-radius: 50%;
@@ -99,13 +99,14 @@ transition: 0.4s 0.2s ease;
 }
 
 .right {
-  border: 1px solid #CDCDCD;
   height: 710px;
-  background-color: rgb(255, 255, 255);
   margin-bottom: 5px;
   margin-right: 3%;
+  /* position: sticky; */
+  /* top: 100px; */
+  position: -webkit-sticky;
   position: sticky;
-  top: 100px;
+  top: 100;
 }
 .icon i{
   padding: 1px;
@@ -268,4 +269,11 @@ color: orange;
   right: 0;
   z-index: 999;
   position: sticky;
+}
+.p-menu{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
 }
