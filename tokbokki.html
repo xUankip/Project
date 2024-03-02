@@ -181,6 +181,102 @@
               <li>The recipe above is suitable for 2-3 servings.</li>
             </lu>
               <br>
+              <div class="hr-1">
+                <hr>
+              </div>
+
+              <!-- HTML Comment -->
+              <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- <div class="container"> -->
+<div class="be-comment-block">
+	<h1 class="comments-title">Comments (3)</h1>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="blog-detail-2.html">
+				<img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-1/319316314_5347058698736190_2892005646620745536_n.jpg?stp=dst-jpg_p200x200&_nc_cat=103&ccb=1-7&_nc_sid=5740b7&_nc_ohc=AA24h1WK-o0AX8MGdHh&_nc_oc=AQnq2jL68PcF_3wWb2JWjj3GxpJJswvZqJrXZsRZgh_cRTZdHefo6jFHK3pXVVpaMkU&_nc_ht=scontent.fhan2-4.fna&oh=00_AfDSllVed4eQKBPfnxJWzw2DPxqQiETnD26IR6gcCgtSqA&oe=65E8B14B" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			
+				<span class="be-comment-name">
+					<a href="blog-detail-2.html">xUankip</a>
+					</span>
+				<span class="be-comment-time">
+					<i class="fa fa-clock-o"></i>
+					May 27, 2015 at 3:14am
+				</span>
+
+			<p class="be-comment-text">
+				Đồ ăn như ...
+			</p>
+		</div>
+	</div>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="blog-detail-2.html">
+				<img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-1/416903533_3711006252553562_4072472987846089312_n.jpg?stp=c0.0.200.200a_dst-jpg_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=5740b7&_nc_ohc=c3V_MpHa-14AX_y4T0m&_nc_ht=scontent.fhan2-3.fna&oh=00_AfDB7_xwc-5qTMpzXNkiUvkKzCanyGvf1ke1lHr1dZ17cg&oe=65E725F4" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			<span class="be-comment-name">
+				<a href="blog-detail-2.html">lamphandsome</a>
+			</span>
+			<span class="be-comment-time">
+				<i class="fa fa-clock-o"></i>
+				May 27, 2015 at 3:14am
+			</span>
+			<p class="be-comment-text">
+				Thứ miễn phí trên đời chỉ có shit bird và water rain thôi!!!
+			</p>
+		</div>
+	</div>
+	<div class="be-comment">
+		<div class="be-img-comment">	
+			<a href="blog-detail-2.html">
+				<img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/415558852_687021370245501_6632527841390993160_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=nxcVIdoVE5QAX_kFJK3&_nc_ht=scontent.fhan2-3.fna&oh=00_AfDXpiErNP1lHWshNJGzmKzOPhYwf9bA5o5AECw9WhGMYA&oe=65E84C20" alt="" class="be-ava-comment">
+			</a>
+		</div>
+		<div class="be-comment-content">
+			<span class="be-comment-name">
+				<a href="blog-detail-2.html">KwanghAhn</a>
+			</span>
+			<span class="be-comment-time">
+				<i class="fa fa-clock-o"></i>
+				May 27, 2015 at 3:14am
+			</span>
+			<p class="be-comment-text">
+				2 anh căng quá
+			</p>
+		</div>
+	</div>
+	<form class="form-block">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<div class="form-group fl_icon">
+					<div class="icon"><i class="fa fa-user"></i></div>
+					<input class="form-input" type="text" placeholder="Your name">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 fl_icon">
+				<div class="form-group fl_icon">
+					<div class="icon"><i class="fa fa-envelope-o"></i></div>
+					<input class="form-input" type="text" placeholder="Your email">
+				</div>
+			</div>
+			<div class="col-xs-12">									
+				<div class="form-group">
+					<textarea class="form-input" required="" placeholder="Your text"></textarea>
+				</div>
+			</div>
+			<a class="btn btn-primary pull-right">submit</a>
+		</div>
+	</form>
+</div>
+<!-- </div> -->
+              
+              
+
+              <!-- End HTML Comment -->
     </main>
 
 
@@ -189,6 +285,46 @@
         crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     <script src="test.js"></script>
+
+      <!-- <script>
+        const commentBox = document.querySelector('.comment-box');
+const fileUpload = commentBox.querySelector('#file-upload');
+
+fileUpload.addEventListener('change', (event) => {
+  const file = event.target.files[0];
+
+  // Xử lý file đã tải lên
+
+  // Ví dụ: hiển thị tên file
+  const fileName = document.createElement('span');
+  fileName.textContent = file.name;
+  commentBox.appendChild(fileName);
+});
+
+      </script> -->
+
+      <script>
+        function postComment() {
+            var commentBox = document.getElementById('commentBox');
+            var commentText = commentBox.value;
+            if (commentText.trim() === '') {
+                alert('Must not be left blank');
+                return;
+            }
+            commentBox.value = '';
+            var comments = document.getElementById('comments');
+            var newComment = document.createElement('div');
+            newComment.className = 'comment';
+    
+            // Tạo một phần tử p để chứa nội dung bình luận
+            var commentContent = document.createElement('p');
+            commentContent.textContent = commentText;
+            newComment.appendChild(commentContent); // Thêm nội dung bình luận vào bình luận
+    
+            comments.appendChild(newComment, comments.firstChild);
+        }
+    </script>
+
 </body>
 <div class="container-fluid">
   <!-- Footer -->
