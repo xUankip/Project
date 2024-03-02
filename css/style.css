@@ -99,13 +99,14 @@ transition: 0.4s 0.2s ease;
 }
 
 .right {
-  /* border: 1px solid #838383; */
   height: 710px;
-  /* background-color: rgb(231, 228, 228); */
   margin-bottom: 5px;
   margin-right: 3%;
+  /* position: sticky; */
+  /* top: 100px; */
+  position: -webkit-sticky;
   position: sticky;
-  top: 100px;
+  top: 0;
 }
 .icon i{
   padding: 1px;
