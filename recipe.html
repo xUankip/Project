@@ -31,43 +31,39 @@
     </head>
 
     <body>
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">Quick <span>Snack</span></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="/index.html" class="nav-item nav-link">Home</a>
-                        <a href="/html/about.html" class="nav-item nav-link">About</a>
-                        <a href="/menu.html" class="nav-item nav-link">Recipe</a>
-                        <a href="/html/contact.html" class="nav-item nav-link">Contact</a>
-                        <a href="/html/login.html" class="nav-item nav-link">Login</a>
-                    </div>
-                </div>
+        <div class="sticky">
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #54cada">
+              <a class="navbar-brand" href="/index.html"><i style="font-family: 'Dancing Script', cursive;">Quick Snack</i></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./menu.html">Recipe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./html/contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./html/about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./html/login.html">Login</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+              </nav>
             </div>
-        </div>
-        <!-- Nav Bar End -->
-        
-        
-        <!-- Page Header Start -->
-        <div class="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Tokbokki</h2>
-                    </div>
-                    <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Recipe Detail</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Page Header End -->
+                <hr>
 
 
         <!-- Single Post Start-->
@@ -304,15 +300,6 @@
 
                     <div class="col-lg-4">
                         <div class="sidebar">
-                            <div class="sidebar-widget">
-                                <div class="search-widget">
-                                    <form>
-                                        <input class="form-control" type="text" placeholder="Search Food">
-                                        <button class="btn"><i class="fa fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-
                             <div class="sidebar-widget">
                                 <h2 class="widget-title">Recent Post</h2>
                                 <div class="recent-post">
