@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #757575;
-    background: #ffffff;
+    background: #f1f1f1;
     font-family: 'open sans', sans-serif;
 }
 
@@ -20,7 +20,7 @@ h6 {
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #fbaf32;
+    color: #54cada;
     transition: .3s;
 }
 
@@ -38,14 +38,14 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background: #fbaf32;
-    border: 2px solid #fbaf32;
+    background: #54cada;
+    border: 2px solid #54cada;
     border-radius: 5px;
     transition: .5s;
 }
 
 .btn.custom-btn:hover {
-    color: #fbaf32;
+    color: #54cada;
     background: transparent;
 }
 
@@ -62,7 +62,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fbaf32;
+    background: #54cada;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -109,7 +109,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #fbaf32;
+    color: #54cada;
     font-size: 45px;
     line-height: 0px;
     font-weight: 700;
@@ -123,11 +123,11 @@ a:focus {
 }
 
 .navbar .navbar-brand:hover {
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .navbar .navbar-brand:hover span {
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .navbar .navbar-brand img {
@@ -157,11 +157,11 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color: #54cada;
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #fbaf32;
+        color: #54cada;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -180,12 +180,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color: #54cada;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color: #54cada;
     }
 }
 
@@ -196,7 +196,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color: #54cada;
     }
     
     .navbar .navbar-nav {
@@ -283,7 +283,7 @@ a:focus {
 }
 
 .carousel .carousel-text h1 span {
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .carousel .carousel-text p {
@@ -378,7 +378,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #fbaf32;
+    color: #54cada;
     font-size: 60px;
     font-weight: 700;
 }
@@ -403,7 +403,7 @@ a:focus {
     top: -1px;
     right: -7px;
     text-align: center;
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .page-header a:last-child::after {
@@ -485,7 +485,7 @@ a:focus {
 
 .booking .booking-form {
     padding: 60px 30px;
-    background: #fbaf32;
+    background: #54cada;
 }
 
 .booking .booking-form .control-group {
@@ -533,7 +533,7 @@ a:focus {
 
 .booking .booking-form .btn.custom-btn {
     width: 100%;
-    color: #fbaf32;
+    color: #54cada;
     background: #ffffff;
     border: 1px solid #ffffff;
 }
@@ -574,7 +574,7 @@ a:focus {
 .food .food-item i {
     position: relative;
     display: inline-block;
-    color: #fbaf32;
+    color: #54cada;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
@@ -592,7 +592,7 @@ a:focus {
     height: calc(100% + 20px);
     top: -20px;
     left: -15px;
-    border: 3px dotted #fbaf32;
+    border: 3px dotted #54cada;
     border-right: transparent;
     border-bottom: transparent;
     border-radius: 100px;
@@ -622,7 +622,7 @@ a:focus {
     height: 1px;
     bottom: 0;
     left: calc(50% - 25px);
-    background: #fbaf32;
+    background: #54cada;
     transition: .3s;
 }
 
@@ -684,7 +684,7 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fbaf32;
+    background: #54cada;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -840,7 +840,7 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 15px;
-    background-image: linear-gradient(#719a0a, #fbaf32);
+    background-image: linear-gradient(#719a0a, #54cada);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -882,7 +882,7 @@ a:focus {
 
 .menu .menu-tab .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #fbaf32;
+    background: #54cada;
     border-radius: 5px;
     margin: 0 5px;
 }
@@ -952,7 +952,7 @@ a:focus {
     display: inline-block;
     float: right;
     padding-left: 5px;
-    color: #fbaf32;
+    color: #54cada;
     background: #ffffff;
 }
 
@@ -1047,7 +1047,7 @@ a:focus {
     border-radius: 40px;
     font-size: 16px;
     color: #ffffff;
-    background: #fbaf32;
+    background: #54cada;
     opacity: 0;
 }
 
@@ -1184,7 +1184,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #fbaf32;
+    background: #54cada;
 }
 
 .testimonial .owl-dot.active {
@@ -1248,7 +1248,7 @@ a:focus {
 }
 
 .blog .blog-meta i {
-    color: #fbaf32;
+    color: #54cada;
     margin-right: 5px;
 }
 
@@ -1270,16 +1270,16 @@ a:focus {
 }
 
 .blog .pagination .page-link {
-    color: #fbaf32;
+    color: #54cada;
     border-radius: 5px;
-    border-color: #fbaf32;
+    border-color: #54cada;
     margin: 0 2px;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #ffffff;
-    background: #fbaf32;
+    background: #54cada;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1325,15 +1325,15 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #fbaf32;
+    color: #54cada;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .single-tags a:hover {
     color: #ffffff;
-    background: #fbaf32;
-    border-color: #fbaf32;
+    background: #54cada;
+    border-color: #54cada;
 }
 
 .single .single-bio {
@@ -1412,7 +1412,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .single .post-item .post-meta {
@@ -1454,7 +1454,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #fbaf32;
+    background: #54cada;
     font-size: 16px;
     transition: .3s;
 }
@@ -1526,7 +1526,7 @@ a:focus {
 }
 
 .single .comment-text .btn:hover {
-    background: #fbaf32;
+    background: #54cada;
 }
 
 .single .comment-form {
@@ -1588,7 +1588,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #fbaf32;
+    background: #54cada;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1612,7 +1612,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #fbaf32;
+    color: #54cada;
     background: none;
     border-radius: 0;
     border: none;
@@ -1633,7 +1633,7 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #fbaf32;
+    background: #54cada;
     border-radius: 0;
 }
 
@@ -1680,7 +1680,7 @@ a:focus {
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #fbaf32;
+    color: #54cada;
     left: 1px;
 }
 
@@ -1700,15 +1700,15 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #fbaf32;
+    color: #54cada;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .tag-widget a:hover {
     color: #ffffff;
-    background: #fbaf32;
-    border-color: #fbaf32;
+    background: #54cada;
+    border-color: #54cada;
 }
 
 .sidebar .image-widget {
@@ -1757,7 +1757,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #54cada;
     border-radius: 50px;
 }
 
@@ -1789,7 +1789,7 @@ a:focus {
 .contact .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .contact .contact-social a:hover {
@@ -1851,7 +1851,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .footer .footer-contact h2::after,
@@ -1879,17 +1879,17 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .footer .footer-link a:hover {
-    color: #fbaf32;
+    color: #54cada;
     letter-spacing: 1px;
 }
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .footer .footer-social {
@@ -1906,7 +1906,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #54cada;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -1928,7 +1928,7 @@ a:focus {
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #fbaf32;
+    border: 1px solid #54cada;
     border-radius: 5px;
 }
 
@@ -1961,7 +1961,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fbaf32;
+    color: #54cada;
 }
 
 .footer .copyright p a:hover {
