@@ -476,6 +476,9 @@ a:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+.food_section{
+  background-color: #efefef;
+}
 
 .food_section .filters_menu {
   padding: 0;
