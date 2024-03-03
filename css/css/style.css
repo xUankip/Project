@@ -9,27 +9,43 @@ body {
 .layout_padding {
   padding: 90px 0;
 }
-
 .layout_padding2 {
+
   padding: 75px 0;
+
 }
+
+
 
 .layout_padding2-top {
+
   padding-top: 75px;
+
 }
+
+
 
 .layout_padding2-bottom {
+
   padding-bottom: 75px;
+
 }
+
+
 
 .layout_padding-top {
+
   padding-top: 90px;
+
 }
+
+
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
-}
 
+  padding-bottom: 90px;
+
+}
 h1,
 h2 {
   font-family: 'Dancing Script', cursive;
@@ -475,6 +491,9 @@ a:focus {
 .offer_section .box:hover .img-box img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+.food_section{
+  background-color: #efefef;
 }
 
 .food_section .filters_menu {
