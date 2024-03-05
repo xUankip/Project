@@ -85,7 +85,60 @@
 
 </style>   -->
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<h1 style="color: #fbc86b;" class="title text-center mb-4">Talk to Us</h1>
+<form class="row g-3 needs-validation" novalidate>
+  <div class="form-group position-relative">
+    <label for="formName" class="d-block">
+      <i class="icon" data-feather="user"></i>
+  </label>
+    <div class="form-group position-relative">  
+      <label for="formName" class="d-block">
+        <i class="icon" data-feather="user"></i>
+    </label>
+      <input type="text" class="form-control form-control-lg thick" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="Name">
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="form-group position-relative">
+    <label for="formEmail" class="d-block">
+      <i class="icon" data-feather="mail"></i>
+  </label>
+    <input type="text" class="form-control form-control-lg thick" id="validationCustom03" required placeholder="E-mail">
+    <div class="invalid-feedback">
+      Please choose a email.
+    </div>
+  </div>
+  <div class="form-group message">
+    <textarea type="text" class="form-control form-control-lg" id="formMessage" required placeholder="Message"></textarea>
+    <div class="invalid-feedback">
+      Please choose a message.
+    </div>
+  </div>
+  <div class="text-center">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+<script>
+  (() => {
+  'use strict'
 
-<div class="invalid-feedback">
-  Vui lòng nhập tên
-</div>
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>

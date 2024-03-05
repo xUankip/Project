@@ -386,24 +386,37 @@
             
                         <!-- Name -->
                         <div class="form-group position-relative">
-                            <label for="formName" class="d-block">
-                                <i class="icon" data-feather="user"></i>
-                            </label>
-                            <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
-                        </div>
+                                <label for="formName" class="d-block">
+                                  <i class="icon" data-feather="user"></i>
+                              </label>
+                                <div class="form-group position-relative">  
+                                  <label for="formName" class="d-block">
+                                    <i class="icon" data-feather="user"></i>
+                                </label>
+                                  <input type="text" class="form-control form-control-lg thick" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="Name">
+                                  <div class="invalid-feedback">
+                                    Please choose a username.
+                                  </div>
+                                </div>
+                              </div>
             
                         <!-- E-mail -->
                         <div class="form-group position-relative">
-                            <label for="formEmail" class="d-block">
-                                <i class="icon" data-feather="mail"></i>
-                            </label>
-                            <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
-                        </div>
-            
+                                <label for="formEmail" class="d-block">
+                                  <i class="icon" data-feather="mail"></i>
+                              </label>
+                                <input type="email" class="form-control form-control-lg thick" id="validationCustom03" required placeholder="E-mail">
+                                <div class="invalid-feedback">
+                                  Please choose a email.
+                                </div>
+                              </div>
                         <!-- Message -->
                         <div class="form-group message">
-                            <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
-                        </div>
+                                <textarea type="text" class="form-control form-control-lg" id="formMessage" rows="7" required placeholder="Message"></textarea>
+                                <div class="invalid-feedback">
+                                  Please choose a message.
+                                </div>
+                              </div>
                     
                         <!-- Submit btn -->
                         <div class="text-center">
