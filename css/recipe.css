@@ -20,7 +20,7 @@ h6 {
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #54cada;
+    color: #00aaa3;
     transition: .3s;
 }
 
@@ -38,14 +38,14 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background: #54cada;
-    border: 2px solid #54cada;
+    background: #00aaa3;
+    border: 2px solid #00aaa3;
     border-radius: 5px;
     transition: .5s;
 }
 
 .btn.custom-btn:hover {
-    color: #54cada;
+    color: #00aaa3;
     background: transparent;
 }
 
@@ -62,7 +62,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #54cada;
+    background: #00aaa3;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -89,215 +89,6 @@ a:focus {
     font-size: inherit;
     margin-left: 0;
 }
-
-
-/*******************************/
-/********** Hero CSS ***********/
-/*******************************/
-/* .carousel {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    min-height: 400px;
-    background: #ffffff;
-}
-
-.carousel .container-fluid {
-    padding: 0;
-}
-
-.carousel .carousel-item {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.carousel .carousel-img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: right;
-    overflow: hidden;
-}
-
-.carousel .carousel-img::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-}
-
-.carousel .carousel-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel .carousel-text {
-    position: absolute;
-    max-width: 700px;
-    height: calc(100vh - 35px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 2;
-}
-
-.carousel .carousel-text h1 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.carousel .carousel-text h1 span {
-    color: #54cada;
-}
-
-.carousel .carousel-text p {
-    color: #ffffff;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 35px;
-}
-
-.carousel .carousel-btn .btn:last-child {
-    margin-left: 10px;
-    background: #719a0a;
-    border-color: #719a0a;
-}
-
-.carousel .carousel-btn .btn:last-child:hover {
-    color: #719a0a;
-    background: transparent;
-}
-
-.carousel .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-@media (max-width: 991.98px) {
-    .carousel,
-    .carousel .carousel-item,
-    .carousel .carousel-text {
-        height: calc(100vh - 105px);
-    }
-    
-    .carousel .carousel-text h1 {
-        font-size: 35px;
-    }
-    
-    .carousel .carousel-text p {
-        font-size: 16px;
-    }
-    
-    .carousel .carousel-text .btn {
-        padding: 12px 30px;
-        font-size: 15px;
-        letter-spacing: 0;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .carousel,
-    .carousel .carousel-item,
-    .carousel .carousel-text {
-        height: calc(100vh - 70px);
-    }
-    
-    .carousel .carousel-text h1 {
-        font-size: 30px;
-    }
-    
-    .carousel .carousel-text .btn {
-        padding: 10px 25px;
-        font-size: 15px;
-        letter-spacing: 0;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .carousel .carousel-text h1 {
-        font-size: 25px;
-    }
-    
-    .carousel .carousel-text .btn {
-        padding: 8px 20px;
-        font-size: 14px;
-        letter-spacing: 0;
-    }
-} */
-
-
-/*******************************/
-/******* Page Header CSS *******/
-/*******************************/
-/* .page-header {
-    position: relative;
-    margin-bottom: 45px;
-    padding: 150px 0 90px 0;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.page-header h2 {
-    position: relative;
-    color: #54cada;
-    font-size: 60px;
-    font-weight: 700;
-}
-
-.page-header a {
-    position: relative;
-    padding: 0 12px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.page-header a:hover {
-    color: #ffffff;
-}
-
-.page-header a::after {
-    position: absolute;
-    content: "/";
-    width: 8px;
-    height: 8px;
-    top: -1px;
-    right: -7px;
-    text-align: center;
-    color: #54cada;
-}
-
-.page-header a:last-child::after {
-    display: none;
-}
-
-@media (max-width: 767.98px) {
-    .page-header h2 {
-        font-size: 35px;
-    }
-    
-    .page-header a {
-        font-size: 18px;
-    }
-} */
-
 
 /*******************************/
 /******* Section Header ********/
@@ -402,7 +193,7 @@ a:focus {
     border-radius: 40px;
     font-size: 16px;
     color: #ffffff;
-    background: #54cada;
+    background: #00aaa3;
     opacity: 0;
 }
 
@@ -539,7 +330,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #54cada;
+    background: #00aaa3;
 }
 
 .testimonial .owl-dot.active {
@@ -603,7 +394,7 @@ a:focus {
 }
 
 .blog .blog-meta i {
-    color: #54cada;
+    color: #00aaa3;
     margin-right: 5px;
 }
 
@@ -625,16 +416,16 @@ a:focus {
 }
 
 .blog .pagination .page-link {
-    color: #54cada;
+    color: #00aaa3;
     border-radius: 5px;
-    border-color: #54cada;
+    border-color: #00aaa3;
     margin: 0 2px;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #ffffff;
-    background: #54cada;
+    background: #00aaa3;
 }
 
 .blog .pagination .disabled .page-link {
@@ -680,15 +471,15 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #54cada;
+    color: #00aaa3;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .single-tags a:hover {
     color: #ffffff;
-    background: #54cada;
-    border-color: #54cada;
+    background: #00aaa3;
+    border-color: #00aaa3;
 }
 
 .single .single-bio {
@@ -767,7 +558,7 @@ a:focus {
 }
 
 .single .post-item .post-text a:hover {
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .single .post-item .post-meta {
@@ -809,7 +600,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #54cada;
+    background: #00aaa3;
     font-size: 16px;
     transition: .3s;
 }
@@ -881,7 +672,7 @@ a:focus {
 }
 
 .single .comment-text .btn:hover {
-    background: #54cada;
+    background: #00aaa3;
 }
 
 .single .comment-form {
@@ -943,7 +734,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #54cada;
+    background: #00aaa3;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -967,7 +758,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #54cada;
+    color: #00aaa3;
     background: none;
     border-radius: 0;
     border: none;
@@ -988,7 +779,7 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #54cada;
+    background: #00aaa3;
     border-radius: 0;
 }
 
@@ -1035,7 +826,7 @@ a:focus {
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #54cada;
+    color: #00aaa3;
     left: 1px;
 }
 
@@ -1055,15 +846,15 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #54cada;
+    color: #00aaa3;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .tag-widget a:hover {
     color: #ffffff;
-    background: #54cada;
-    border-color: #54cada;
+    background: #00aaa3;
+    border-color: #00aaa3;
 }
 
 .sidebar .image-widget {
@@ -1112,7 +903,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #54cada;
+    background: #00aaa3;
     border-radius: 50px;
 }
 
@@ -1144,7 +935,7 @@ a:focus {
 .contact .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .contact .contact-social a:hover {
@@ -1188,6 +979,7 @@ a:focus {
     margin-top: 45px;
     padding-top: 90px;
     background: rgba(0, 0, 0, .04);
+    background-color: #00aaa3;
 }
 
 .footer .footer-contact,
@@ -1206,7 +998,7 @@ a:focus {
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .footer .footer-contact h2::after,
@@ -1234,17 +1026,17 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .footer .footer-link a:hover {
-    color: #54cada;
+    color: #00aaa3;
     letter-spacing: 1px;
 }
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .footer .footer-social {
@@ -1261,7 +1053,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #54cada;
+    background: #00aaa3;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -1283,7 +1075,7 @@ a:focus {
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #54cada;
+    border: 1px solid #00aaa3;
     border-radius: 5px;
 }
 
@@ -1316,7 +1108,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #54cada;
+    color: #00aaa3;
 }
 
 .footer .copyright p a:hover {
@@ -1337,3 +1129,31 @@ a:focus {
     /* font-size: 20px; */
   }
 
+.single > .container > .row > .col-lg-8 > .single-content > .ready {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(212, 211, 211);
+    margin: -15px 0 10px 0;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > .ready > span {
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: #515764;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > img {
+    margin-bottom: 15px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > .ready > .span-2, .span-3 {
+    border-left: 0.5px solid #515764;
+}
