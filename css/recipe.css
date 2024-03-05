@@ -1129,3 +1129,31 @@ a:focus {
     /* font-size: 20px; */
   }
 
+.single > .container > .row > .col-lg-8 > .single-content > .ready {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(212, 211, 211);
+    margin: -15px 0 10px 0;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > .ready > span {
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: #515764;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > img {
+    margin-bottom: 15px;
+}
+
+.single > .container > .row > .col-lg-8 > .single-content > .ready > .span-2, .span-3 {
+    border-left: 0.5px solid #515764;
+}
