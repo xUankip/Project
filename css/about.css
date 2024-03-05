@@ -177,11 +177,10 @@ margin: 10px;
 
 
 .p-div{
-font-weight: bold;
+font-weight: light;
   padding:5px;
   font-size: 22px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-  color: #ec8c43;
+  color: #fff;
   margin-left: 10%; 
   margin-right: 10%;
   margin-top: 5%;
