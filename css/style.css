@@ -82,7 +82,7 @@ transition: 0.4s 0.2s ease;
 }
 
 .a-body{
-  color: #54cada;
+  color: #00aaa3;
 }
 .content img{
   border-radius: 50%;
@@ -332,7 +332,7 @@ color: orange;
   border-radius: 40px;
   font-size: 16px;
   color: #ffffff;
-  background: #54cada;
+  background: #00aaa3;
   opacity: 0;
 }
 
@@ -436,7 +436,7 @@ color: orange;
   display: block;
   width: 100px;
   height: 100px;
-  background: #54cada;
+  background: #00aaa3;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -451,7 +451,7 @@ color: orange;
   display: block;
   width: 100px;
   height: 100px;
-  background: #54cada;
+  background: #00aaa3;
   border-radius: 50%;
   transition: all 200ms;
 }
@@ -666,4 +666,10 @@ color: orange;
 
 .hihi{
   height: 10vh;
+}
+.footer{
+  background-color: #00aaa3;
+}
+.nav{
+  background-color: #00aaa3;
 }
