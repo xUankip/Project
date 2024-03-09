@@ -11,16 +11,12 @@ ul{
     display: inline-flex;
 }
 
-ul li{
-    margin-top: 10px;
-}
 .img-logo{
     width: 80px;
     height: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 2%; */
 }
 
 
@@ -52,12 +48,10 @@ ul li{
   .a-content{
     text-decoration: none;
     color: rgb(88, 168, 233);
-    /* text-transform: uppercase ; */
   }
   .ggmap{
     text-align: center;
   }
-  /* form */
   svg {
     height: 23rem;
     margin-right: 4rem;
@@ -105,7 +99,7 @@ ul li{
   }
   
   form {
-    min-width: 25rem;
+    /* min-width: 25rem; */
     
     .title {
       font-family: 'Pacifico', cursive;
